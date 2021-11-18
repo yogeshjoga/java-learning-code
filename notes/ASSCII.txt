@@ -1,0 +1,73 @@
+ASCII
+Updated: 17/11/2021 by Computer Hope
+
+ASCII may refer to any of the following:
+
+ Short for American Standard Code for Information Interexchange, ASCII is a standard that assigns letters, numbers, and other characters in the 256 slots available in the 8-bit code. The ASCII decimal (Dec) number is created from binary, which is the language of all computers. As shown in the table below, the lowercase "h" character (Char) has a decimal value of 104, which is "01101000" in binary.
+
+ASCII was first developed and published in 1963 by the X3 committee, a part of the ASA (American Standards Association). The ASCII standard was first published as ASA X3.4-1963, with ten revisions of the standard being published between 1967 and 1986.
+
+ASCII sections.
+How do you pronounce ASCII?
+Convert text into ASCII.
+ASCII sections
+The ASCII table is divided into three different sections.
+
+Non-printable, system codes between 0 and 31.
+Lower ASCII, between 32 and 127. This table originates from the older, American systems, which worked on 7-bit character tables.
+Higher ASCII, between 128 and 255. This portion is programmable; characters are based on the language of your operating system or program you are using. Foreign letters are also placed in this section.
+Standard or lower ASCII characters and codes.
+Extended ASCII characters and codes.
+Convert text into ASCII.
+Standard or lower ASCII characters and codes
+
+Char	Dec	Binary	       Char	Dec	Binary	       Char	Dec	Binary
+
+!	033	00100001	A	065	01000001	a	097	01100001
+"	034	00100010	B	066	01000010	b	098	01100010
+#	035	00100011	C	067	01000011	c	099	01100011
+$	036	00100100	D	068	01000100	d	100	01100100
+%	037	00100101	E	069	01000101	e	101	01100101
+&	038	00100110	F	070	01000110	f	102	01100110
+'	039	00100111	G	071	01000111	g	103	01100111
+(	040	00101000	H	072	01001000	h	104	01101000
+)	041	00101001	I	073	01001001	i	105	01101001
+*	042	00101010	J	074	01001010	j	106	01101010
++	043	00101011	K	075	01001011	k	107	01101011
+,	044	00101100	L	076	01001100	l	108	01101100
+-	045	00101101	M	077	01001101	m	109	01101101
+.	046	00101110	N	078	01001110	n	110	01101110
+/	047	00101111	O	079	01001111	o	111	01101111
+0	048	00110000	P	080	01010000	p	112	01110000
+1	049	00110001	Q	081	01010001	q	113	01110001
+2	050	00110010	R	082	01010010	r	114	01110010
+3	051	00110011	S	083	01010011	s	115	01110011
+4	052	00110100	T	084	01010100	t	116	01110100
+5	053	00110101	U	085	01010101	u	117	01110101
+6	054	00110110	V	086	01010110	v	118	01110110
+7	055	00110111	W	087	01010111	w	119	01110111
+8	056	00111000	X	088	01011000	x	120	01111000
+9	057	00111001	Y	089	01011001	y	121	01111001
+:	058	00111010	Z	090	01011010	z	122	01111010
+;	059	00111011	[	091	01011011	{	123	01111011
+<	060	00111100	\	092	01011100	|	124	01111100
+=	061	00111101	]	093	01011101	}	125	01111101
+>	062	00111110	^	094	01011110	~	126	01111110
+?	063	00111111	_	095	01011111	_	127	01111111
+@	064	01000000	`	096	01100000	 	
+
+
+
+
+
+
+
+				
+		
+
+
+
+
+
+
+ 	 
