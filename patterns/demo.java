@@ -2,8 +2,8 @@
 class demo{
     //int a, b, c;
     static void stars(){
-        int a, b, c;
-          for(a=0; a<100; a++ )
+        int a, b, c=6;
+          for(a=0; a<=c; a++)
           {
               for(b=0; b<=a; b++){    
                 System.out.println("*");
