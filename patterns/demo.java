@@ -6,13 +6,15 @@ class demo{
           for(a=0; a<=c; a++)
           {
               for(b=0; b<=a; b++){    
-                System.out.println("*");
+                System.out.print("* ");
               }
+              System.out.println();
           }
     }
     public static void main(String[] args){
     System.out.println("patterns");
     stars();
+    System.out.println();
     }
 }
 

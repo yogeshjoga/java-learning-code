@@ -1,18 +1,17 @@
-public class demo2 {
-    static void pattern(){
-        int i,j,k=0;
-        for( i=1; i<10;i++){
-            for( j=1;j<=k; j++){
-                System.out.println("* ");
-            }
-        }
-    } 
+// this is the demo star patterns printing by using methods
+// i dont know about the java  but now try 
+//let's start
 
-    public static void main(String[] args){
-      //System.out.println();
-      pattern();
-      //demo2 me = new demo2();
-        //me.pattern();
-    }
     
+public class demo2 {
+    
+    public static void main(String args[]){
+            int i, j, k=12;
+            for(i=0;i < k;i++){
+                for(j=0;j<=i;j++){
+                 System.out.print("* "); //don't use println it will goto the new line of courser, it will not print the shape
+                }
+                System.out.println();
+            }
+    }
 }
