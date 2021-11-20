@@ -1,4 +1,4 @@
-public class demo4{
+public class PatternsPrint{
    //method or function starting to create the square pattern
     public static void square(){
         int c=6; //local variables
@@ -16,7 +16,7 @@ public class demo4{
     }
                   // 2nd method or function starting to create the Right triangle pattern
     public static void incTriangle(){
-        int c=6; // local variables
+        int c=6; // local variables --- local premitive variables
         for(int a=1;a<=c;a++){
             for(int b=1;b<=a;b++){
                System.out.print("@  ");
@@ -55,4 +55,5 @@ public class demo4{
         System.out.println();
         System.out.println("=======The end of the programming=========");
     }
+    
 }
