@@ -129,7 +129,8 @@
 
 
 ## variable intilazation 
-	variableName = 12; // variableName is a,  = (= it's mean assignment operator to assign the value to variable) ; (semiclone is end of the statmeant)
+	variableName = 12; // variableName is a,  = (= it's mean assignment operator to assign 
+	the value to variable) ; (semiclone is end of the statmeant)
 
   
 
@@ -193,7 +194,7 @@ example :
 		System.out.print(b)
 		}
 	}
----------------------------------------------------------ASCII VALUES---------------------------------------------------------------
+											-------------------------------ASCII VALUES--------------------------------------
 
 
 
@@ -202,9 +203,15 @@ Updated: 17/11/2021 by Computer Hope
 
 ASCII may refer to any of the following:
 
- Short for American Standard Code for Information Interexchange, ASCII is a standard that assigns letters, numbers, and other characters in the 256 slots available in the 8-bit code. The ASCII decimal (Dec) number is created from binary, which is the language of all computers. As shown in the table below, the lowercase "h" character (Char) has a decimal value of 104, which is "01101000" in binary.
+ Short for American Standard Code for Information Interexchange, ASCII is a standard that assigns 
+ letters, numbers, and other characters in the 256 slots available in the 8-bit code. The ASCII decimal 
+ (Dec) number is created from binary, which is the language of 
+ all computers. As shown in the table below, the lowercase "h" character (Char) has a decimal value of 104, 
+ which is "01101000" in binary.
 
-ASCII was first developed and published in 1963 by the X3 committee, a part of the ASA (American Standards Association). The ASCII standard was first published as ASA X3.4-1963, with ten revisions of the standard being published between 1967 and 1986.
+ASCII was first developed and published in 1963 by the X3 committee, a part of the ASA 
+(American Standards Association). The ASCII standard was first published as ASA X3.4-1963, 
+with ten revisions of the standard being published between 1967 and 1986.
 
 ASCII sections.
 How do you pronounce ASCII?
@@ -213,8 +220,10 @@ ASCII sections
 The ASCII table is divided into three different sections.
 
 Non-printable, system codes between 0 and 31.
-Lower ASCII, between 32 and 127. This table originates from the older, American systems, which worked on 7-bit character tables.
-Higher ASCII, between 128 and 255. This portion is programmable; characters are based on the language of your operating system or program you are using. Foreign letters are also placed in this section.
+Lower ASCII, between 32 and 127. This table originates from the older, American systems,
+ which worked on 7-bit character tables.Higher ASCII, between 128 and 255. This portion 
+ is programmable; characters are based on the language
+ of your operating system or program you are using. Foreign letters are also placed in this section.
 Standard or lower ASCII characters and codes.
 Extended ASCII characters and codes.
 Convert text into ASCII.
@@ -264,7 +273,7 @@ $	036	00100100	D	068	01000100	d	100	01100100
 
 
 
--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
 
 
 
@@ -324,7 +333,8 @@ To excute the java programming
 		by using for beginners notepad, notepad++, editplus
                for intermedite learners IDE's integrated developement enivormental
 To complie
-	source file sent to ==> compiler  ===> javac SourceFile.java ===> return the .class file ===> sent jvm interpeter ====> it converted into binary language ===> result your instructions what you written.
+	source file sent to ==> compiler  ===> javac SourceFile.java ===> return the .class file ===> 
+	sent jvm interpeter ====> it converted into binary language ===> result your instructions what you written.
 
 
 
@@ -386,7 +396,8 @@ auto widining
 	    int i = 10.00;
 	    int is a datatype   i is variable   10.00 double value
 
-		automatical take the casting type smaller datatype value to bigger datatype value converting is called Implecit auto-widining
+		automatical take the casting type smaller datatype value to bigger datatype value converting 
+		 is called Implecit auto-widining
  		ex:
 			int i = (int) 10.000; //it is valid 
 			output: 10 //we lost the values
@@ -399,7 +410,8 @@ Explcit narrowing
 	    int i = 10.00;
 	    int is a datatype   i is variable   10.00 double value
 
-		it is not taken automatically the casting type bigger datatype value to smaller datatype value converting is called Explcit-narrowing.
+		it is not taken automatically the casting type bigger datatype value to smaller datatype 
+		value converting is called Explcit-narrowing.
 
  		ex:
 			int i = (int) 10.000; //it is valid 
