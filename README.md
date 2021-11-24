@@ -1,5 +1,5 @@
 
-#The elements of the java programming is known as TOKENS.
+# The elements of the java programming is known as TOKENS.
    
 
 	There are four type of tokens in java programming language
@@ -8,50 +8,55 @@
 	3 Literals
 	4 Separtors
 
-#Keywords :
+# Keywords :
          keywords mean predefined words it's started from lowercase letters.
 		ex: class void public static.
 
-#Identifiers:
+# Identifiers:
 	It is user defined keywords 
 		ex:variables
      whenever we provided identifiers we should follow these rules and convenctions.
          
-	Rules:
+	## Rules:
 		1 Not allow to use predefined keywords
 		2 NOt allow to use as a starting character is numbers it's taken syntax error.
 		3 Not allow to use as special characters either to use $ and _ dollar and underscore.
 
 
-		 Conventions:
+	## Conventions:
 				These are the standard pratices follwed while providing the identifiers 
-			1 The class name msut start with Uppercase letter, it contains multi words then each word must start with uppercase.
-			ex: SampleName,Demo,         
+			1 The class name msut start with Uppercase letter, it contains multi words then 
+			  each word must start with uppercase.
+			  ex: SampleName,Demo,         
 
-			2 the method name should be in lowercase, but it consisting of multiwords first word is will be in lowercase and remaining words must start with uppercase letter's.
-			Ex: sampleName,demo
+			2 the method name should be in lowercase, but it consisting of multiwords first word
+			   is will be in lowercase and remaining words must start with uppercase letter's.
+
+			 Ex: sampleName,demo
 
 			3 class name is similar to the source file name 
 				source file mean .java file
 
 
-	3Literals:
-		 These are the actual facts or raw facts whic discribe the attributes of a particular type of the object.
-		Attributs are the common factes of the objects.
+	Literals:
+		 These are the actual facts or raw facts whic discribe the attributes of a particular type of 
+		  the object.
+		 Attributs are the common factes of the objects.
 
-	4 seprators:
+	seprators:
 		these are speical symbols (){}[]"':;,.
 
 
 -------------------------------------------------------------------------------------
 
 
-				DATA TYPES OF THE JAVA
-There are two types of data types
+#				DATA TYPES OF THE JAVA
+
+## There are two types of data types
 	1 premitive data type
 	2 Non-premitive data type
 
- premitive data type these are eight types:
+## premitive data type these are eight types:
 			Integers 
 				1 Byte = 1byte memory
 				2 Short = 2
@@ -67,14 +72,14 @@ There are two types of data types
 
 	
 
-Non-premitive data type
+## Non-premitive data type
 			Strings
 				1 String = not defined
 
 
 
 
-Integers:
+## Integers:
 	Byte = 1 byte
 		-128 to +127 printing
            int a = 120; // valid 
@@ -95,36 +100,35 @@ Integers:
                 long g = 133456789023456789L;// it is valid
 		long h = 2^100; //it is not valid compile time error
 
-Single char 
+   Single char 
 		char = 2 byts
 		char i = 'y'; // it is valid but must containg the single quots
 		char j = 'yo'; // not valid  multi char's not allow to this data type
 
 
-Boolean  
+   Boolean  
 		boolean = 1 bit memory
 		boolean = true;
 		boolean = false;
 
-Strings
+   Strings
 		String = not defined in this data type
 		String k = "yogesh"; // it is valid if without double quotes it's not valid
 		String l = "1j#5% any thing it will accepted"; // but must containg the double quotes
 
 
 
-
-variables
+# variables
 	variables are used to store teh data to store the data we need follow the instructions.
 		1 variable decleartion
 		2 variable intilazation
-variable decleartion
+## variable decleartion
 
 	datatype variableName
 	ex: int a     // int (is the datatype) a (is the variable user defined keyword)
 
 
-variable intilazation 
+## variable intilazation 
 	variableName = 12; // variableName is a,  = (= it's mean assignment operator to assign the value to variable) ; (semiclone is end of the statmeant)
 
   
@@ -216,6 +220,8 @@ Extended ASCII characters and codes.
 Convert text into ASCII.
 Standard or lower ASCII characters and codes
 
+
+```c
 Char	Dec	Binary	       Char	Dec	Binary	       Char	Dec	Binary
 
 !	033	00100001	A	065	01000001	a	097	01100001
@@ -251,6 +257,8 @@ $	036	00100100	D	068	01000100	d	100	01100100
 ?	063	00111111	_	095	01011111	_	127	01111111
 @	064	01000000	`	096	01100000	 	
 
+
+```
 
 
 
