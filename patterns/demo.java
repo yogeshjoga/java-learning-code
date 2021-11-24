@@ -11,6 +11,15 @@ class demo{
               System.out.println();
           }
     }
+    /*
+    static int Add(int x, int y)
+{
+  if (y == 0)
+    return x;
+  else
+    return Add(x ^ y, (x & y) << 1);
+} */
+ 
     public static void main(String[] args){
     System.out.println("patterns");
     stars();
