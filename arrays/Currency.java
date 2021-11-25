@@ -24,7 +24,7 @@ public class Currency {
         System.out.println();
         System.out.println("================Have a nice Day================");
         System.out.println();
-        System.out.println("indian rupee is : " +price.length);
+        System.out.println("Total array length is : " +price.length);
         System.out.println();
         System.out.println();
 
