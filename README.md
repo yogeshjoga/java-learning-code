@@ -1,7 +1,11 @@
+# Intro of software
+	Type's of softwares
+	   1 Applicaton Software
+	   2 Operating Software
+
+
 
 # The elements of the java programming is known as TOKENS.
-   
-
 	There are four type of tokens in java programming language
 	1 keywords
 	2 Identifiers
