@@ -31,9 +31,11 @@
 
 
 ## Conventions:
-				These are the standard pratices follwed while providing the identifiers 
+				These are the standard pratices follwed while providing the identifiers.
+
 			1 The class name msut start with Uppercase letter, it contains multi words then 
 			  each word must start with uppercase.
+
 			  ex: SampleName,Demo,         
 
 			2 the method name should be in lowercase, but it consisting of multiwords first word
@@ -62,28 +64,28 @@
 #				DATA TYPES OF THE JAVA
 
 ## There are two types of data types
-	1 premitive data type
-	2 Non-premitive data type
+	1 primitive data type
+	2 Non-primitive data type
 
-## premitive data type these are eight types:
+## primitive data type these are eight types and Non-primitive datatype:
 
 ```java
 			Integers 
-				1 Byte = 1byte memory
-				2 Short = 2
-				3 Int = 4
-				4 Long = 8
+				1 Byte = 1 Byte
+				2 Short = 2 Bytes
+				3 Int = 4 Bytes
+				4 Long = 8 Bytes
 			Floating type
-				5 float = 4
-				6 double = 8
+				5 float = 4 Bytes
+				6 double = 8 Bytes
 			Single char
-				7 Char = 2
+				7 Char = 2 Bytes
 			Booleans
-				8 boolean = 1 bit memory
+				8 boolean = 1 Bit
 				
-   Non-premitive data type
+   Non-primitive data type
 			Strings
-				1 String = not defined
+				Strings = not defined;
 ```
 
 
@@ -132,25 +134,25 @@
 
 # variables
 	variables are used to store teh data to store the data we need follow the instructions.
-		1 variable decleartion
-		2 variable intilazation
-
-## variable decleartion
+		1 variable declaration
+		2 variable initialization
+variable declaration and initialization
+## variable  declaration
 
 ```java
 	datatype variableName
 	ex: int a     // int (is the datatype) a (is the variable user defined keyword)
 ```
 
-## variable intilazation 
+## variable initialization 
 	variableName = 12; // variableName is a,  = (= it's mean assignment operator to assign 
 	the value to variable) ; (semiclone is end of the statmeant)
 
   
 ```java
  ex: statment 
-	int a; //variable decelaraion 
-	a=1243; // variable intiliation
+	int a; //variable  declaration 
+	a=1243; // variable initialization
  
 
 simple statment
@@ -170,42 +172,42 @@ As same integer
 	We have two classifications of variables
 		1 Based on datatype
 		2 Based on visibility/ Scope
-  Based on datatype
-	Premitive Variables
-	Non-premitive Varibles
-  Based on Scope
-	Global Varibles
-	Local Varibles
+    Based on datatype
+	    primitive Variables
+	    Non-primitive Varibles
+    Based on Scope
+	    Global Varibles
+	    Local Varibles
 
-## Premitive Variables
-	Any variable the premitive datatype is known as premitive variable.
+## primitive Variables
+	Any variable the primitive datatype is known as primitive variable.
 ```java
-		ex: int a = 10; // a is the premitive variable
+		ex: int a = 10; // a is the primitive variable
 ```
-## Non-premitive Variable
-	Any variable the non-premitve datatype is known  as non premitive variable.
+## Non-primitive Variable
+	Any variable the non-premitve datatype is known  as non primitive variable.
 ```java
 	 ex: 
-	 String b = "yogesh"; // b is the Non-premitive variable.
+	 String b = "yogesh"; // b is the Non-primitive variable.
 ```
 
 	Global Variables
-	it's contain the outside of the methods is called Global Variables
+		It's contain the outside of the methods is called Global Variables
       
 
 	Local Variables
-	If the varible is declear the inside the method is called local variables
+		If the varible is declear the inside the method is called local variables
            like for loop, while loop.
 
 ```java
  example :
   class yogesh{
-	     static int a = 10;  //Premitive Global variables 
-	     static String b = "yogesh"; //Non-premitive Global variable
+	     static int a = 10;  //primitive Global variables 
+	     static String b = "yogesh"; //Non-primitive Global variable
 
 	public static void main(String[] yogi){
-		int a =20; //premitive local variable
-		String b = "billa"; // Non-premitive local variable
+		int a =20; //primitive local variable
+		String b = "billa"; // Non-primitive local variable
 		System.out.print(a);
 		System.out.print(b)
 		}
@@ -247,7 +249,7 @@ Convert text into ASCII.
 Standard or lower ASCII characters and codes
 
 
-```c
+```java
 Char	Dec	Binary	       Char	Dec	Binary	       Char	Dec	Binary
 
 !	033	00100001	A	065	01000001	a	097	01100001
@@ -318,8 +320,8 @@ the name of screen is cmd, console,
 
 console courser is started from left side end point or starting point
 if want go you can print some thing
-   
 
+```java
 
 System.out.print("yogesh");   //it is valid 
 System.out.print();    // it is not valid syntax
@@ -329,14 +331,15 @@ output given the blow screenshot
 
 System.out.println(); // it is valid why because it's print new fresh line that's why
  
-the output given the blow screenshot
-
+The output given the below screenshot
+```
  
 
 -------------------------------------------------
 
 
-		CMD TRICKS
+#		CMD TRICKS
+```java
 
 GOTO RUN by using ==  windows key + r 
 Type the CMD and hit enter
@@ -353,16 +356,16 @@ To complie
 	source file sent to ==> compiler  ===> javac SourceFile.java ===> return the .class file ===> 
 	sent jvm interpeter ====> it converted into binary language ===> result your instructions what you written.
 
+```
 
-
-RULES FOR LOCAL VARIABLES
+# RULES FOR LOCAL VARIABLES
 
   1 When we use varibales the value will be used in the program
   2 we need for declar and initilazaion a variable before we are them
   3 two or more variables cannot be declare with the same name
   4 once we declare the variable we can reintilatize the variable number of times
 
-
+```java
 
 	double d = 250.999;
 	d = 23898.0000; //Reinitilation
@@ -386,17 +389,17 @@ RULES FOR LOCAL VARIABLES
 
   =====output== is == 34567754.5785 == latest update r latest reinstation====
 
+```
 
 
 
+#					Intro of the Type casting
 
-					Intro of the Type casting
+ The Type castings are two types 
+	primitive type casting is deals with data converting datatype value to another datatype
 
-		The Type castings are two types 
-				primitive type casting is deals with data converting datatype value to another datatype
-
- 			1 implecit auto-widining
-			2 explcit narrowing
+ 		1 Implecit auto-widining.
+		2 Explcit narrowing.
 
 	
 	Implecit auto-widining
@@ -407,8 +410,8 @@ RULES FOR LOCAL VARIABLES
 		double ==> float ==> long ===> int ===> int ===> char ===> short ===> byte
 
 
-auto widining
-
+	   auto widining
+```java
 	ex: 
 	    int i = 10.00;
 	    int is a datatype   i is variable   10.00 double value
@@ -436,6 +439,7 @@ Explcit narrowing
 			int j = 10.009;   //it is the complie time error! we must add the type casting 
 				output: error!
 
+```
 
 				
 
