@@ -116,7 +116,7 @@
 
 	long = 8 byts
 			-2^64 to + 2^63
-            long g = 133456789023456789L;// it is valid
+             long g = 133456789023456789L;// it is valid
 			long h = 2^100; //it is not valid compile time error
 
    Single char 
