@@ -476,7 +476,7 @@ Explcit narrowing
 		}
 
 ```
-# Aadhar card deatils printing in java class task
+# Aadhar card deatils printing in java institute task
 ```java
 		class AadharCard{
 			public static void main(String[] yogi){
