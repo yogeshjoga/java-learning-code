@@ -24,13 +24,13 @@
 		ex:variables
      whenever we provided identifiers we should follow these rules and convenctions.
          
-	## Rules:
+## Rules:
 		1 Not allow to use predefined keywords
 		2 NOt allow to use as a starting character is numbers it's taken syntax error.
 		3 Not allow to use as special characters either to use $ and _ dollar and underscore.
 
 
-	## Conventions:
+## Conventions:
 				These are the standard pratices follwed while providing the identifiers 
 			1 The class name msut start with Uppercase letter, it contains multi words then 
 			  each word must start with uppercase.
@@ -45,16 +45,18 @@
 				source file mean .java file
 
 
-	Literals:
+## Literals:
 		 These are the actual facts or raw facts whic discribe the attributes of a particular type of 
 		  the object.
 		 Attributs are the common factes of the objects.
 
-	seprators:
+## seprators:
+		```c
 		these are speical symbols (){}[]"':;,.
+		```
 
 
--------------------------------------------------------------------------------------
+---------------------------------------------------------
 
 
 #				DATA TYPES OF THE JAVA
@@ -64,6 +66,7 @@
 	2 Non-premitive data type
 
 ## premitive data type these are eight types:
+		```c
 			Integers 
 				1 Byte = 1byte memory
 				2 Short = 2
@@ -76,17 +79,18 @@
 				7 Char = 2
 			Booleans
 				8 boolean = 1 bit memory
+				
 
 	
 
-## Non-premitive data type
+   Non-premitive data type
 			Strings
 				1 String = not defined
-
-
+    ```
 
 
 ## Integers:
+	```c
 	Byte = 1 byte
 		-128 to +127 printing
            int a = 120; // valid 
@@ -112,6 +116,7 @@
 		char i = 'y'; // it is valid but must containg the single quots
 		char j = 'yo'; // not valid  multi char's not allow to this data type
 
+	
 
    Boolean  
 		boolean = 1 bit memory
@@ -123,25 +128,28 @@
 		String k = "yogesh"; // it is valid if without double quotes it's not valid
 		String l = "1j#5% any thing it will accepted"; // but must containg the double quotes
 
+		```
 
 
 # variables
 	variables are used to store teh data to store the data we need follow the instructions.
 		1 variable decleartion
 		2 variable intilazation
+
 ## variable decleartion
 
+		```c
 	datatype variableName
 	ex: int a     // int (is the datatype) a (is the variable user defined keyword)
-
+		```
 
 ## variable intilazation 
 	variableName = 12; // variableName is a,  = (= it's mean assignment operator to assign 
 	the value to variable) ; (semiclone is end of the statmeant)
 
   
-
-ex: statment 
+ ```c
+ ex: statment 
 	int a; //variable decelaraion 
 	a=1243; // variable intiliation
  
@@ -157,39 +165,41 @@ below screenshot input/output memory allocation process is explained
 As same integer 
 		char q='y';
 		String d="yogesh";
+		```
 
-Classifications fo variables
+# Classifications fo variables
 	We have two classifications of variables
 		1 Based on datatype
 		2 Based on visibility/ Scope
-Based on datatype
+  Based on datatype
 	Premitive Variables
 	Non-premitive Varibles
-Based on Scope
+  Based on Scope
 	Global Varibles
 	Local Varibles
 
-Premitive Variables
+## Premitive Variables
 	Any variable the premitive datatype is known as premitive variable.
-
+		```c
 		ex: int a = 10; // a is the premitive variable
-
-Non-premitive Variable
+			```
+## Non-premitive Variable
 	Any variable the non-premitve datatype is known  as non premitive variable.
-	  
-	 ex: String b = "yogesh"; // b is the Non-premitive variable.
+	  ```c
+	 ex: 
+	 String b = "yogesh"; // b is the Non-premitive variable.
+		```
 
-
-Global Variables
+	Global Variables
 	it's contain the outside of the methods is called Global Variables
       
 
-Local Variables
+	Local Variables
 	If the varible is declear the inside the method is called local variables
            like for loop, while loop.
 
-
-example :
+	```c
+ example :
   class yogesh{
 	     static int a = 10;  //Premitive Global variables 
 	     static String b = "yogesh"; //Non-premitive Global variable
@@ -202,7 +212,7 @@ example :
 		}
 	}
 
-
+  ```
 
 # ---------------ASCII VALUES----------------
 
