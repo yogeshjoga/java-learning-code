@@ -51,9 +51,9 @@
 		 Attributs are the common factes of the objects.
 
 ## seprators:
-		```java
+```java
 		these are speical symbols (){}[]"':;,.
-		```
+```
 
 
 ---------------------------------------------------------
@@ -66,7 +66,8 @@
 	2 Non-premitive data type
 
 ## premitive data type these are eight types:
-		```java
+
+```java
 			Integers 
 				1 Byte = 1byte memory
 				2 Short = 2
@@ -80,17 +81,15 @@
 			Booleans
 				8 boolean = 1 bit memory
 				
-
-	
-
    Non-premitive data type
 			Strings
 				1 String = not defined
-    ```
+```
 
 
 ## Integers:
-	```java
+
+```java
 	Byte = 1 byte
 		-128 to +127 printing
            int a = 120; // valid 
@@ -128,7 +127,7 @@
 		String k = "yogesh"; // it is valid if without double quotes it's not valid
 		String l = "1j#5% any thing it will accepted"; // but must containg the double quotes
 
-		```
+```
 
 
 # variables
@@ -138,17 +137,17 @@
 
 ## variable decleartion
 
-		```java
+```java
 	datatype variableName
 	ex: int a     // int (is the datatype) a (is the variable user defined keyword)
-		```
+```
 
 ## variable intilazation 
 	variableName = 12; // variableName is a,  = (= it's mean assignment operator to assign 
 	the value to variable) ; (semiclone is end of the statmeant)
 
   
- ```java
+```java
  ex: statment 
 	int a; //variable decelaraion 
 	a=1243; // variable intiliation
@@ -165,7 +164,7 @@ below screenshot input/output memory allocation process is explained
 As same integer 
 		char q='y';
 		String d="yogesh";
-		```
+```
 
 # Classifications fo variables
 	We have two classifications of variables
@@ -180,15 +179,15 @@ As same integer
 
 ## Premitive Variables
 	Any variable the premitive datatype is known as premitive variable.
-		```java
+```java
 		ex: int a = 10; // a is the premitive variable
-			```
+```
 ## Non-premitive Variable
 	Any variable the non-premitve datatype is known  as non premitive variable.
-	  ```java
+```java
 	 ex: 
 	 String b = "yogesh"; // b is the Non-premitive variable.
-		```
+```
 
 	Global Variables
 	it's contain the outside of the methods is called Global Variables
@@ -198,7 +197,7 @@ As same integer
 	If the varible is declear the inside the method is called local variables
            like for loop, while loop.
 
-	```java
+```java
  example :
   class yogesh{
 	     static int a = 10;  //Premitive Global variables 
@@ -212,7 +211,7 @@ As same integer
 		}
 	}
 
-  ```
+```
 
 # ---------------ASCII VALUES----------------
 
