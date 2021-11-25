@@ -503,6 +503,19 @@ Explcit narrowing
    				System.out.println();
 			}
 		}
+
+	Output of the aadhar task:	
+=============Aadhar Card===========
+
+Name of the card holder is : JOGA YOGESH
+Date of birth is : May-06-1998
+Phone number is : 9110566354
+Aadhar number is : 15242698822365
+Addrs is : Palasa/kasibugga/pundi
+Postal code is : 532218
+
+Thankyou bye bye!
+
 ```
 
 
