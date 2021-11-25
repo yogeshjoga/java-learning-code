@@ -51,7 +51,7 @@
 		 Attributs are the common factes of the objects.
 
 ## seprators:
-		```c
+		```java
 		these are speical symbols (){}[]"':;,.
 		```
 
@@ -66,7 +66,7 @@
 	2 Non-premitive data type
 
 ## premitive data type these are eight types:
-		```c
+		```java
 			Integers 
 				1 Byte = 1byte memory
 				2 Short = 2
@@ -90,7 +90,7 @@
 
 
 ## Integers:
-	```c
+	```java
 	Byte = 1 byte
 		-128 to +127 printing
            int a = 120; // valid 
@@ -138,7 +138,7 @@
 
 ## variable decleartion
 
-		```c
+		```java
 	datatype variableName
 	ex: int a     // int (is the datatype) a (is the variable user defined keyword)
 		```
@@ -148,7 +148,7 @@
 	the value to variable) ; (semiclone is end of the statmeant)
 
   
- ```c
+ ```java
  ex: statment 
 	int a; //variable decelaraion 
 	a=1243; // variable intiliation
@@ -180,12 +180,12 @@ As same integer
 
 ## Premitive Variables
 	Any variable the premitive datatype is known as premitive variable.
-		```c
+		```java
 		ex: int a = 10; // a is the premitive variable
 			```
 ## Non-premitive Variable
 	Any variable the non-premitve datatype is known  as non premitive variable.
-	  ```c
+	  ```java
 	 ex: 
 	 String b = "yogesh"; // b is the Non-premitive variable.
 		```
@@ -198,7 +198,7 @@ As same integer
 	If the varible is declear the inside the method is called local variables
            like for loop, while loop.
 
-	```c
+	```java
  example :
   class yogesh{
 	     static int a = 10;  //Premitive Global variables 
