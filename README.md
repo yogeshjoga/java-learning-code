@@ -12,7 +12,8 @@
 
 # JAVA INTRO 
 	WHY JAVA SEE THE BELOW MIND-MAP
-	
+
+<img src="https://github.com/yogeshjoga/java-learning-code/blob/master/notes/JAVA.jpg">
 
 # The elements of the java programming is known as TOKENS.
 	There are four type of tokens in java programming language
