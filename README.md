@@ -5,7 +5,9 @@
 
 # Image map
 
-<img src="https://github.com/yogeshjoga/java-learning-code/blob/notes/Software1.jpeg">
+<br>
+
+<img src="https://github.com/yogeshjoga/java-learning-code/blob/master/notes/Software1.jpeg">
 
 
 # The elements of the java programming is known as TOKENS.
