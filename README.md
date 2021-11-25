@@ -448,8 +448,34 @@ Explcit narrowing
 
 ```
 
-				
 
+# OPERATORS 
+	operators are used to perform opeartions and we have many operators in JAVA such as 
+	  1 Arithmetic Operator
+	  	 + - * / %
+	Pluse (+);
+		pluse it as two behaviors 
+					==> Addition
+					==> Concatnation
+			Pluse behaviors like concatnation only if any one of oparant is String
+			and the output of the concatnation is always the String
+
+```java
+	Example 
+		//pluse + oprator
+		class Oprator{
+			public static void main(String[] yogi){
+				int a = 1+2; //output is 3
+				int b = 2+2.0; //auto widining
+				System.out.println(a);
+				System.out.println(b);
+				//concatnation
+				System.out.println(2+4+"bikes"+34); //output is  2+4=6;, 6+bikes=6bikes;,  6bikes+34 = 6bikes34;
+
+			}
+		}
+
+```
 
 
 
