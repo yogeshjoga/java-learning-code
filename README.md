@@ -3,6 +3,7 @@
 	   1 Applicaton Software
 	   2 Operating Software
 
+<img src="https://github.com/yogeshjoga/java-learning-code/blob/notes/Software.png">
 
 
 # The elements of the java programming is known as TOKENS.
