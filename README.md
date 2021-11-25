@@ -3,14 +3,16 @@
 	   1 Applicaton Software
 	   2 Operating Software
 
-# Image map
+# Image Mind-map
 
 <br>
 
 <img src="https://github.com/yogeshjoga/java-learning-code/blob/master/notes/Software1.jpg">
 
 
-<img src="https://github.com/yogeshjoga/c-learning-30-days/blob/master/my_photo_git.jpg">
+# JAVA INTRO 
+	WHY JAVA SEE THE BELOW MIND-MAP
+	
 
 # The elements of the java programming is known as TOKENS.
 	There are four type of tokens in java programming language
