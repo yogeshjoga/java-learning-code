@@ -7,8 +7,10 @@
 
 <br>
 
-<img src="https://github.com/yogeshjoga/java-learning-code/blob/master/notes/Software1.jpeg">
+<img src="https://github.com/yogeshjoga/java-learning-code/blob/master/notes/Software1.jpg">
 
+
+<img src="https://github.com/yogeshjoga/c-learning-30-days/blob/master/my_photo_git.jpg">
 
 # The elements of the java programming is known as TOKENS.
 	There are four type of tokens in java programming language
