@@ -100,41 +100,41 @@
 
 ```java
 	Byte = 1 byte
-		-128 to +127 printing
-           int a = 120; // valid 
-	   int b = 140; // not valid compile time error
+			-128 to +127 printing
+          	int a = 120; // valid 
+	 		int b = 140; // not valid compile time error
 	
 	short = 2 byts
-		-32768 to +32767 printing
-	   int c = 23500; // It is valid 
-	   int d = 33000; // it is not valid compile time error
+			-32768 to +32767 printing
+	 		int c = 23500; // It is valid 
+	  		int d = 33000; // it is not valid compile time error
         
 	int = 4 byts
-		-2^32 to +2^31
-		int e = 1237530349823048; // it is valid
-		int f = 5^40; // it is the error compile time error
+			-2^32 to +2^31
+			int e = 1237530349823048; // it is valid
+			int f = 5^40; // it is the error compile time error
 
 	long = 8 byts
-		-2^64 to + 2^63
-                long g = 133456789023456789L;// it is valid
-		long h = 2^100; //it is not valid compile time error
+			-2^64 to + 2^63
+            long g = 133456789023456789L;// it is valid
+			long h = 2^100; //it is not valid compile time error
 
    Single char 
-		char = 2 byts
-		char i = 'y'; // it is valid but must containg the single quots
-		char j = 'yo'; // not valid  multi char's not allow to this data type
+			char = 2 byts
+			char i = 'y'; // it is valid but must containg the single quots
+			char j = 'yo'; // not valid  multi char's not allow to this data type
 
 	
 
    Boolean  
-		boolean = 1 bit memory
-		boolean = true;
-		boolean = false;
+			boolean = 1 bit memory
+			boolean = true;
+			boolean = false;
 
    Strings
-		String = not defined in this data type
-		String k = "yogesh"; // it is valid if without double quotes it's not valid
-		String l = "1j#5% any thing it will accepted"; // but must containg the double quotes
+			String = not defined in this data type
+			String k = "yogesh"; // it is valid if without double quotes it's not valid
+			String l = "1j#5% any thing it will accepted"; // but must containg the double quotes
 
 ```
 
