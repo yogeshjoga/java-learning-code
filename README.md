@@ -476,6 +476,7 @@ Explcit narrowing
 		}
 
 ```
+
 # Aadhar card deatils printing in java institute task
 ```java
 		class AadharCard{
@@ -515,6 +516,72 @@ Addrs is : Palasa/kasibugga/pundi
 Postal code is : 532218
 
 Thankyou bye bye!
+
+```
+
+## Comparison Operators
+
+```java
+ The output is boolean values
+
+  == Is equal to 
+
+  > Grather then
+
+  >= Grather then is equal to
+
+  < Lessthen 
+
+  <= Lessthen is equal to 
+
+  != Not equal to 
+
+  EXamples 
+			5==5; // true
+			5==6; // Is false
+
+			5>3; //Is true 5 is bigger then the 3
+			5>7; //Is false 5 is less then the 7
+
+			5>=4;//true it mean gratherthan or equlto
+			5>=9; //false 
+
+			5<9; //true
+			5<2; //false
+
+			5<=6;// true
+			5<=2;//false
+
+			5!=2; // true
+			5!=5; //false
+
+
+```
+## Assignment Operators
+```java
+		(=, +=, -=, *=, /=, %=)
+		 Assigning the oparands to variables
+		 
+		 Examples
+		 		int a = 10; // a is variable and = is the assign the value of 10
+				 //these are written into types
+				 
+				 //1st type is
+				 a = a+20; // now a is containing the value is 10, + 20 = 30; //a containing 10 is deleted and update to 30
+				 //2nd type is 
+				 a+=20; //same a containing the 10, it update to add 10+20=30;
+
+
+				 a=a-10; //a is 30 -10 =20
+				 a-=10; //same answer
+
+				 a=a*2; //40
+				 a*=2; 
+
+				 a=a/2; //20
+				 a/=2;
+
+				 a%=2; //0
 
 ```
 ## Java Conditional Operators
@@ -569,7 +636,7 @@ Thankyou bye bye!
    		 }
 
 	}
-	
+
 ```
 
 
