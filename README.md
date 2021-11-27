@@ -3,14 +3,14 @@
  This is for complete beginners and non-it background peoples only.
  why because im a MECHANICAL ENGINEER &#x1F602;
 
- MY SELF I AM _JOGA YOGESH_ im leant these things in QJspiders panjagutta
+ MY SELF I AM __JOGA YOGESH__ i'm learnt these things in QJspiders panjagutta in hyd
 
 
 
 # Intro of software &#x1F4BB; 
 	Type's of softwares
 	   1 Applicaton Software
-	   2 Operating Software
+	   2 Operating Software_
 
 
 # Image Mind-map
