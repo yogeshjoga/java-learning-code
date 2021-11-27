@@ -1,3 +1,10 @@
+
+# &#x1F618; Learn JAVA language  &#x1F4BB;
+ This is for complete beginners and non-it background peoples only.
+ why because im a MECHANICAL ENGINEER &#x1F602;
+
+
+
 # Intro of software &#x1F4BB; &#x1F618;
 	Type's of softwares
 	   1 Applicaton Software
