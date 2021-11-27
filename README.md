@@ -651,7 +651,7 @@ Thankyou bye bye!
 
 ```
 
-# How to convert the INT to ASCII Values
+# How to convert the INT to ASCII to Binary Code Values
     
 ```java
 		It is the the 8-bit code 0001000
