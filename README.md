@@ -668,7 +668,31 @@ Thankyou bye bye!
 			// that integers values known as a ASCII Values.
         }
     }
-}
+ }
+
+  0 integer value ==> ASCII Value 
+1 integer value ==> ASCII Value ☺
+2 integer value ==> ASCII Value ☻
+3 integer value ==> ASCII Value ♥
+4 integer value ==> ASCII Value ♦
+5 integer value ==> ASCII Value ♣
+6 integer value ==> ASCII Value ♠
+7 integer value ==> ASCII Value
+8 integer value ==> ASCII Value
+9 integer value ==> ASCII Value
+10 integer value ==> ASCII Value
+---------------------------------
+65 integer value ==> ASCII Value A
+66 integer value ==> ASCII Value B
+67 integer value ==> ASCII Value C
+---------------------------------
+86 integer value ==> ASCII Value V
+87 integer value ==> ASCII Value W
+88 integer value ==> ASCII Value X
+89 integer value ==> ASCII Value Y
+90 integer value ==> ASCII Value Z
+----------------------------------
+upto 256 printed
 
 
 ```
