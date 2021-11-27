@@ -652,7 +652,29 @@ Thankyou bye bye!
 ```
 
 # How to convert the INT to ASCII to Binary Code Values
-    
+
+```java
+		// int to ASCII printing in java 
+
+
+		public class IntToAscii {
+    public static void main(String[] args){
+
+       for(int i=0;i<=256;i++){
+           // System.out.println((char)i);
+           System.out.println( i + " integer value ==> ASCII Value " + (char)i);  
+			// the int i value is casted into char.
+			// char is internally taken as a integer values.
+			// that integers values known as a ASCII Values.
+        }
+    }
+}
+
+
+```
+
+## ASCII to Binary Code 
+
 ```java
 		It is the the 8-bit code 0001000
 
