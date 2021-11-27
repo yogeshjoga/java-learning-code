@@ -3,7 +3,7 @@
  This is for complete beginners and non-it background peoples only.
  why because im a MECHANICAL ENGINEER &#x1F602;
 
- MY SELF I AM __JOGA YOGESH__ i'm learnt these things in QJspiders panjagutta in hyd
+ My self i am __JOGA YOGESH__ i'm learnt these things in QJspiders panjagutta in hyd
 
 
 
