@@ -22,22 +22,22 @@
 	3 Literals
 	4 Separtors
 
-# Keywords :
+## Keywords :
          keywords mean predefined words it's started from lowercase letters.
 		ex: class void public static.
 
-# Identifiers:
+## Identifiers:
 	It is user defined keywords 
 		ex:variables
      whenever we provided identifiers we should follow these rules and convenctions.
          
-## Rules:
+    Rules:
 		1 Not allow to use predefined keywords
 		2 NOt allow to use as a starting character is numbers it's taken syntax error.
 		3 Not allow to use as special characters either to use $ and _ dollar and underscore.
 
 
-## Conventions:
+    Conventions:
 				These are the standard pratices follwed while providing the identifiers.
 
 			1 The class name msut start with Uppercase letter, it contains multi words then 
