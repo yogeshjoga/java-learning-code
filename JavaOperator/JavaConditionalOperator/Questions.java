@@ -32,7 +32,18 @@ class Questions{
         System.out.println();
 
         //4th question
-        
+        int large = (a>b)? a: b;
+        String bigger = (large<d)? d +" is larger": large+ " is larger";
+        System.out.println(bigger);
+        System.out.println();
+
+
+        //4th answer is in 2nd type we will write
+        int largerValue = (a>b)? ((a>d)? a:d): ((b>d)? b :d);
+        System.out.println("the larger value is : "+largerValue);
+
+
+
 
     }
 
