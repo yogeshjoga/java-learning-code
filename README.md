@@ -1,8 +1,8 @@
-# Intro of software &#x1F618;
+# Intro of software &#x1F4BB; &#x1F618;
 	Type's of softwares
 	   1 Applicaton Software
 	   2 Operating Software
-	   &#x1F618;
+
 
 # Image Mind-map
 
