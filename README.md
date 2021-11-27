@@ -31,13 +31,13 @@
 		ex:variables
      whenever we provided identifiers we should follow these rules and convenctions.
          
-    **Rules:**
+**Rules:**
 		1 Not allow to use predefined keywords
 		2 NOt allow to use as a starting character is numbers it's taken syntax error.
 		3 Not allow to use as special characters either to use $ and _ dollar and underscore.
 
 
-    **Conventions:**
+**Conventions:**
 				These are the standard pratices follwed while providing the identifiers.
 
 			1 The class name msut start with Uppercase letter, it contains multi words then 
@@ -71,8 +71,8 @@
 #				DATA TYPES OF THE JAVA
 
 ## There are two types of data types
-	> 1 primitive data type
-	> 2 Non-primitive data type
+> 1 primitive data type
+> 2 Non-primitive data type
 
 ## primitive data type these are eight types and Non-primitive datatype:
 
