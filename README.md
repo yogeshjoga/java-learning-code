@@ -664,6 +664,21 @@ Thankyou bye bye!
 		 |     |  1 |  0 |  0 | 0 | 0 | 0 | 1 | =======> 65 Integer Value Is Vonverted Into Binary Code (A);
 		 |_____|____|____|____|___|___|___|___|
 
+		
+		97 is converted into a Binary Code:
+
+				64 + 32 + 1 = 97; 
+				Which how many numbers is adding till the end of we reach the 97 result:
+				 we taken 64, in 64 place we will put 1
+				 we taken 32, in 32 place we will put 1
+				 we are not teken 16 so put 0
+				 we are not teken 8 so put 0
+				 we are not teken 4 so put 0
+				 we are not teken 2 so put 0
+				 we taken 1, in 1 place we will put 1
+
+				 see the 97 Binary Code above the table 
+
 
 ```
 
