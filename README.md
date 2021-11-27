@@ -3,6 +3,8 @@
  This is for complete beginners and non-it background peoples only.
  why because im a MECHANICAL ENGINEER &#x1F602;
 
+ MY SELF I AM _JOGA YOGESH_ im leant these things in QJspiders panjagutta
+
 
 
 # Intro of software &#x1F4BB; 
