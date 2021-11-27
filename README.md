@@ -74,6 +74,8 @@
 
 ## There are two types of data types
 > 1 primitive data type
+
+
 > 2 Non-primitive data type
 
 ## primitive data type these are eight types and Non-primitive datatype:
