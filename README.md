@@ -5,7 +5,7 @@
 
 
 
-# Intro of software &#x1F4BB; &#x1F618;
+# Intro of software &#x1F4BB; 
 	Type's of softwares
 	   1 Applicaton Software
 	   2 Operating Software
