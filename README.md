@@ -670,7 +670,10 @@ Thankyou bye bye!
     }
  }
 
-  0 integer value ==> ASCII Value 
+
+out put is like in your console
+
+0 integer value ==> ASCII Value 
 1 integer value ==> ASCII Value ☺
 2 integer value ==> ASCII Value ☻
 3 integer value ==> ASCII Value ♥
@@ -691,7 +694,9 @@ Thankyou bye bye!
 88 integer value ==> ASCII Value X
 89 integer value ==> ASCII Value Y
 90 integer value ==> ASCII Value Z
+
 ----------------------------------
+
 upto 256 printed
 
 
