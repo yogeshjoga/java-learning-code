@@ -627,6 +627,18 @@ Thankyou bye bye!
         System.out.println();
 
         //4th question
+		
+        
+        int large = (a>b)? a: b;
+        String bigger = (large<d)? d +" is larger": large+ " is larger";
+        System.out.println(bigger);
+        System.out.println();
+
+
+        //4th answer is in 2nd type we will write
+        int largerValue = (a>b)? ((a>d)? a:d): ((b>d)? b :d);
+        System.out.println("the larger value is : "+largerValue);
+
         
 
    		 }
@@ -639,6 +651,21 @@ Thankyou bye bye!
 
 ```
 
+# How to convert the INT to ASCII Values
+    
+```java
+		It is the the 8-bit code 0001000
+
+		
+		 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 | =====> Bits 
+		 |_____|____|____|____|___|___|___|___|
+		 |     |  1 |  1 |  0 | 0 | 0 | 0 | 1 | =======> 97 Integer Value Is Vonverted Into Binary Code (a);
+		 |_____|____|____|____|___|___|___|___|
+		 |     |  1 |  0 |  0 | 0 | 0 | 0 | 1 | =======> 65 Integer Value Is Vonverted Into Binary Code (A);
+		 |_____|____|____|____|___|___|___|___|
+
+
+```
 
 
    
