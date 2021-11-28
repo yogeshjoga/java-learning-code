@@ -98,7 +98,7 @@
 ---------------------------------------------------------
 
 
-#				DATA TYPES OF THE JAVA
+#				DATA TYPES In JAVA
 
 ## There are two types of data types
 > 1 primitive data type
