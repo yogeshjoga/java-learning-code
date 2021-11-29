@@ -920,7 +920,7 @@ upto 256 printed
 
 ```java
 
-	Condition ( || )	   Condition           OutPut 
+	Condition ( || )	   Condition                           OutPut 
 
 	  True      			False 				True
 
@@ -940,7 +940,7 @@ upto 256 printed
 
  ```java
 
-       Condition            Output
+       Condition           Output
 
 	   !True             False
 
