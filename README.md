@@ -399,10 +399,14 @@ To complie
 
 # RULES FOR LOCAL VARIABLES
 
-  1 When we use varibales the value will be used in the program
-  2 we need for declar and initilazaion a variable before we are them
-  3 two or more variables cannot be declare with the same name
-  4 once we declare the variable we can reintilatize the variable number of times
+  1 When we use varibales the value will be used in the program.
+
+  2 we need for declar and initilazaion a variable before we are them.
+
+  3 two or more variables cannot be declare with the same name.
+
+  4 once we declare the variable we can reintilatize the variable number of times.
+  
 
 ```java
 
