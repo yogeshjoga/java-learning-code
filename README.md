@@ -982,11 +982,11 @@ upto 256 printed
 
 ## Social meda
 
-[Instagram]( https://www.instagram.com/_yogi_joga/ )
+[Instagram]( https://www.instagram.com/_yogi_joga/ ) &#x1F61B;
 
-[Facebook]( https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100014890958322 )
+[Facebook]( https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100014890958322 ) &#x1F61B;
 
-[Whatsapp]( https://chatwith.io/s/617ab3d1a9ef6 )
+[Whatsapp]( https://chatwith.io/s/617ab3d1a9ef6 ) &#x1F61B;
 
 <p align="center" style="font-size: 8px"></p>
 
