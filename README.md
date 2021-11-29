@@ -881,8 +881,10 @@ upto 256 printed
 	   3 Logical NOT ( ! )
 
 > Logical AND ( && )
+
        Logical AND ( && ) is used to check for the multiple conditions to be satisfied or to be True.
 	   The behaviour of AND opertator can be obatined by it's TURTH TABLE.
+
 ```java
 
 	Condition    (&&)      Condition            OutPut 
@@ -895,8 +897,48 @@ upto 256 printed
 
 	  True					True				True     =====> only both conditions are true it's true.
 
+	  example:
+	  		(a<=199)&&(b<=200)&&(c<=300); ==>condtions, if one condition is fail total statment not executed
+
 
 ```
+
+> Logical OR ( || )
+
+       Logical OR ( || ) operator it is use to check fo rany one of the conditionis satisfied or not 
+	   based upon the output of the condition to perform opertaion later.
+
+	   The behaviour of AND opertator can be obatined by it's TURTH TABLE.
+
+```java
+
+	Condition    ( || )     Condition           OutPut 
+
+	  True      			False 				True
+
+	  False					True				True
+
+	  False					False				False     ===> if all statment is false it not excuted
+
+	  True					True				True    
+
+	      example:
+	  		    (a<=199)||(b<=200)||(c<=300); ==>condtions, if ALL condition is fail total statment not executed
+
+
+```
+
+ > Logical NOT ( ! )
+ ```java
+       Condition     	Output
+
+	   !True             False
+
+	   !False            True
+
+	   // ! not    not True  mean false
+```
+
   
 
 
