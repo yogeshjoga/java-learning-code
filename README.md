@@ -806,43 +806,43 @@ upto 256 printed
 
   > BitWise AND Operator  ( & )
 ```java
-	  Condition 1       Condition 2         OutPut 
+	  Condition 1       Condition 2                         OutPut 
 
 	  True  1    		False 	1			False 0
 
-	  False	0			True	1			False 0
+	  False	0		True	1			False 0
 
-	  False	0			False	0			False 0
+	  False	0		False	0			False 0
 
-	  True	1			True	1			True  1   =====> only both conditions are true it's true.
+	  True	1		True	1			True  1   =====> only both conditions are true it's true.
 ```
 
   > BitWise OR Operator  ( | )
 ```java
      
-	Condition 1         Condition 2        OutPut 
+	Condition 1           Condition 2       	       OutPut 
 
 	  True    1  		False 	0			True   1
 
-	  False	  0		    True	1			True   1
+	  False	  0		True	1			True   1
 
-	  False	  0		    False	0			False  0  ===> only both contitions are false is false.
+	  False	  0		False	0			False  0  ===> only both contitions are false is false.
 
-	  True	  1			True	1			True   1
+	  True	  1		True	1			True   1
 ```
 
  > BitWise XOR Operator  ( ^ )
 
 ```java
-	  Condition 1       Condition 2         OutPut 
+	  Condition 1       Condition 2                        OutPut 
 
 	  True  1     		False   0			True  1
 
-	  False	0			True	1			True  1
+	  False	0		True	1			True  1
 
-	  False	0			False	0			False 0    ===> both fals or true it's taken false
+	  False	0		False	0			False 0    ===> both fals or true it's taken false
 
-	  True	1			True	1			False 0
+	  True	1		True	1			False 0
 
 ```
 
@@ -894,11 +894,11 @@ upto 256 printed
 
 	  True      			False 				False 
 
-	  False					True				False 
+	  False				True				False 
 
-	  False					False				False 
+	  False				False				False 
 
-	  True					True				True     =====> only both conditions are true it's true.
+	  True				True				True     =====> only both conditions are true it's true.
 
 	  example:
 	  		(a<=199)&&(b<=200)&&(c<=300); ==>condtions, if one condition is fail total statment not executed
@@ -919,11 +919,11 @@ upto 256 printed
 
 	  True      			False 				True
 
-	  False					True				True
+	  False				True				True
 
-	  False					False				False     ===> if all statment is false it not excuted
+	  False				False				False     ===> if all statment is false it not excuted
 
-	  True					True				True    
+	  True				True				True    
 
 	      example:
 	  		    (a<=199)||(b<=200)||(c<=300); ==>condtions, if ALL condition is fail total statment not executed
@@ -932,8 +932,10 @@ upto 256 printed
 ```
 
  > Logical NOT ( ! )
+
  ```java
-       Condition     	Output
+
+       Condition            Output
 
 	   !True             False
 
