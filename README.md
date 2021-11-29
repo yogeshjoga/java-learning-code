@@ -8,7 +8,7 @@
 ```java
 
 	┌────────────────────────────────────────────────────────────┐
-	│                                                            │
+	│             java int a =10; /* yogesh welcome  */          │
 	│▄▄▄    ▄▄▄                                         ▄▄       │
 	│ ██▄  ▄██                                          ██       │
 	│  ██▄▄██    ▄████▄    ▄███▄██   ▄████▄   ▄▄█████▄  ██▄████▄ │
@@ -31,15 +31,15 @@
 	   2 Operating Software_
 
 
-# Image Mind-map
+# Image Mind-map &#x1F47B;
 
 <br>
 
 <img src="https://github.com/yogeshjoga/java-learning-code/blob/master/notes/Software1.jpg">
 
 
-# JAVA INTRO 
-	WHY JAVA SEE THE BELOW MIND-MAP
+# JAVA INTRO  &#x1F47B;
+	WHY JAVA, SEE THE BELOW MIND-MAP
 
 <img src="https://github.com/yogeshjoga/java-learning-code/blob/master/notes/JAVA.jpg">
 
