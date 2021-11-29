@@ -21,7 +21,7 @@
 	└────────────────────────────────────────────────────────────┘
 ```
 
- My self i am [__JOGA YOGESH__](https://www.google.com/search?q=yogesh+joga&oq=yogesh+joga&aqs=chrome.0.69i59j0i512j0i10i22i30l2j69i61j69i60l2.3277j0j7&sourceid=chrome&ie=UTF-8) i'm learnt these things in [QJspiders panjagutta](https://www.instagram.com/jspiderspunjagutta/?hl=en) in hyd
+ My self i am [__JOGA YOGESH__](https://www.google.com/search?q=yogesh+joga&oq=yogesh+joga&aqs=chrome.0.69i59j0i512j0i10i22i30l2j69i61j69i60l2.3277j0j7&sourceid=chrome&ie=UTF-8) &#x1F60D;
 
 
 
