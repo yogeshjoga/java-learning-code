@@ -915,7 +915,7 @@ upto 256 printed
 
 ```java
 
-	Condition    ( || )     Condition           OutPut 
+	Condition ( || )	   Condition           OutPut 
 
 	  True      			False 				True
 
