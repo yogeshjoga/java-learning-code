@@ -405,17 +405,17 @@ To complie
 
   3 two or more variables cannot be declare with the same name.
 
-  4 once we declare the variable we can reintilatize the variable number of times.
-  
+  4 once we declar the variable we can reinitialization the variable number of times.
+
 
 ```java
 
 	double d = 250.999;
-	d = 23898.0000; //Reinitilation
-	d = 34567.56789; //again reintilation
+	d = 23898.0000; //reinitialization
+	d = 34567.56789; //again reinitialization
 	string d= "yogesh"; // it is compile time error why because already variable is decleard 
-	// re intilation is n no.of times
-	// re declaration is not possible
+	// reinitialization is n no.of times
+	// redeclaration is not possible
 
 
 
@@ -424,13 +424,13 @@ To complie
 		public static void main (String[] yogi){
 			double d = 2345.6789; // valid statment
 			double d = 456789.67890; //invalid statment
-			d= 2345678.56789; // valid it is the reinsilation
-			d=34567754.5785; // valid it is the reinstailiton
+			d= 2345678.56789; // valid it is the reinitialization
+			d=34567754.5785; // valid it is the reinitialization
 			System.out.println(d);
 		}
 	}
 
-  =====output== is == 34567754.5785 == latest update r latest reinstation====
+  =====output== is == 34567754.5785 == latest update r latest reinitialization====
 
 ```
 
@@ -545,6 +545,7 @@ Explcit narrowing
 =============Aadhar Card===========
 
 Name of the card holder is : JOGA YOGESH
+Father name is : JOGA PAPRAO
 Date of birth is : May-06-1998
 Phone number is : 9110566354
 Aadhar number is : 15242698822365
@@ -629,7 +630,7 @@ Thankyou bye bye!
 		example 	(a%b==0)?"Even Number" : "Odd Number";
 
 
-			//1st question : Write a program to print wheter the given number is even or odd 17.
+	//1st question : Write a program to print wheter the given number is even or odd 17.
 	//2nd question : Write a program to check the given number is divisable into 3 and if its then print good morining orther wise good night.
 	//3rd question : Write a program to chek the largest of given two numbers and print which is largest.
 	//4th question : Write a proagam to check the largest value of the 3 given values by using conditonal operator only.
@@ -741,6 +742,28 @@ upto 256 printed
 ## ASCII to Binary Code 
 
 ```java
+		TYPE ONE IS TO CONVERT THE INTERGER VALUE TO BINARY CODE
+		Using the LCM method 
+
+		2|8----------------1
+		 |___________
+		2|4 ----------------0
+		 |________                   this is the 1000 is the binary code conversion 
+		2|2  ---------------0
+		 |____________
+		 |0 ----------------0
+		 
+			Bit wise calculate 
+			starting the 2 power 0 to start 
+
+			0    0   0     1     0   0    0 ====> value is 8
+
+			2^6, 2^5, 2^4, 2^3, 2^2, 2^1, 2^0
+			64   32   16    8    4    2    1
+
+
+
+
 		It is the the 8-bit code 0001000
 
 		
@@ -768,6 +791,122 @@ upto 256 printed
 
 
 ```
+# Bit Wise Operator
+   
+   This operators to used as a Pesudo codes
+   and bacend of computer performance.
+  
+  There are some Types of BitWise Opertors 
+
+  1 BitWise AND Operator.
+  2 BitWise OR Operator.
+  3 BitWise XOR Operator.
+  4 BitWise LEFT-SHIFT Operator.
+  5 BitWise RIGHT-SHIFR Operator.
+
+  > BitWise AND Operator  ( & )
+     
+	  Condition 1         Condition 2            OutPut 
+
+	  True  1    			False 	1			False 0
+
+	  False	0				True	1			False 0
+
+	  False	0				False	0			False 0
+
+	  True	1				True	1			True  1   =====> only both conditions are true it's true.
+
+
+  > BitWise OR Operator  ( | )
+     
+	Condition 1         Condition 2            OutPut 
+
+	  True    1  			False 	0			True   1
+
+	  False	  0		    	True	1			True   1
+
+	  False	  0		    	False	0			False  0  ===> only both contitions are false is false.
+
+	  True	  1				True	1			True   1
+
+
+ > BitWise XOR Operator  ( ^ )
+    
+	  Condition 1         Condition 2            OutPut 
+
+	  True  1     			False   0			True  1
+
+	  False	0				True	1			True  1
+
+	  False	0				False	0			False 0    ===> both fals or true it's taken false
+
+	  True	1				True	1			False 0
+
+
+> BitWise LEFT-SHIFT Operator
+```java
+		It is the operation, we can perform
+		for example:
+		  		int a = 2;
+				int b = 4;
+				a<<b; //operation is bind the computer 
+				// 2*2^4 = 10 is output 
+
+
+```
+
+
+
+> BitWise RIGHT-SHIFR Operator
+	
+```java
+		It is the operation, we can perform
+		for example:
+		  		int a = 2;
+				int b = 4;
+				a<<b; //operation is bind the computer 
+				// 2/2^4 = 4 quotient is output 
+
+
+```
+
+# Logical Operators
+
+ Logical Operators are used mainly to verify the conditions so that later we can perform the operations.
+
+	There are the 3 types of Logical Operators
+	  
+	   1 Logical AND ( && )
+	   2 Logical OR ( || )
+	   3 Logical NOT ( ! )
+
+> Logical AND ( && )
+       Logical AND ( && ) is used to check for the multiple conditions to be satisfied or to be True.
+	   The behaviour of AND opertator can be obatined by it's TURTH TABLE.
+```java
+
+	Condition    (&&)      Condition            OutPut 
+
+	  True      			False 				False 
+
+	  False					True				False 
+
+	  False					False				False 
+
+	  True					True				True     =====> only both conditions are true it's true.
+
+
+```
+  
+
+
+
+
+
+
+    
+       
+      
 
 
    
