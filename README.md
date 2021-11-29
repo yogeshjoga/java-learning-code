@@ -799,10 +799,15 @@ upto 256 printed
   There are some Types of BitWise Opertors 
 
   1 BitWise AND Operator.
+
   2 BitWise OR Operator.
+
   3 BitWise XOR Operator.
+
   4 BitWise LEFT-SHIFT Operator.
+
   5 BitWise RIGHT-SHIFR Operator.
+
 
   > BitWise AND Operator  ( & )
 ```java
