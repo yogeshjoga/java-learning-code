@@ -806,7 +806,7 @@ upto 256 printed
 
   > BitWise AND Operator  ( & )
 ```java
-	  Condition 1         Condition 2            OutPut 
+	  Condition 1       Condition 2         OutPut 
 
 	  True  1    		False 	1			False 0
 
@@ -820,7 +820,7 @@ upto 256 printed
   > BitWise OR Operator  ( | )
 ```java
      
-	Condition 1         Condition 2            OutPut 
+	Condition 1         Condition 2        OutPut 
 
 	  True    1  		False 	0			True   1
 
@@ -832,9 +832,9 @@ upto 256 printed
 ```
 
  > BitWise XOR Operator  ( ^ )
- 
+
 ```java
-	  Condition 1         Condition 2            OutPut 
+	  Condition 1       Condition 2         OutPut 
 
 	  True  1     		False   0			True  1
 
@@ -890,15 +890,15 @@ upto 256 printed
 
 ```java
 
-	Condition    (&&)      Condition            OutPut 
+	Condition    (&&)		Condition           OutPut 
 
-	  True      		False 				False 
+	  True      			False 				False 
 
-	  False				True				False 
+	  False					True				False 
 
-	  False				False				False 
+	  False					False				False 
 
-	  True				True				True     =====> only both conditions are true it's true.
+	  True					True				True     =====> only both conditions are true it's true.
 
 	  example:
 	  		(a<=199)&&(b<=200)&&(c<=300); ==>condtions, if one condition is fail total statment not executed
@@ -917,13 +917,13 @@ upto 256 printed
 
 	Condition    ( || )     Condition           OutPut 
 
-	  True      		False 				True
+	  True      			False 				True
 
-	  False				True				True
+	  False					True				True
 
-	  False				False				False     ===> if all statment is false it not excuted
+	  False					False				False     ===> if all statment is false it not excuted
 
-	  True				True				True    
+	  True					True				True    
 
 	      example:
 	  		    (a<=199)||(b<=200)||(c<=300); ==>condtions, if ALL condition is fail total statment not executed
