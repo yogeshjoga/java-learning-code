@@ -970,7 +970,11 @@ upto 256 printed
 
 # Class assignment 
 
+
 ```java
+
+  ** Date 01/12/2021; **
+
 	public class Question2 {
     static void answers(){
         // question 1 is 
