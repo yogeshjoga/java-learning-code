@@ -972,8 +972,7 @@ upto 256 printed
 
 
 ```java
-
-  ** Date 01/12/2021; **
+** Date 01/12/2021; **
 
 	public class Question2 {
     static void answers(){
