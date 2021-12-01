@@ -96,13 +96,17 @@ public class Question2 {
 
     static void answers7(){
         //write a programm to print multiplication by using while loop?
-        int a=2,b=10,c=a*b;
-        b++;
-           while(b>=10){
-               System.out.pritnln()
+        int a=2;
+           for(int b=0;b<=10;b++){
+
+            //this is the another statment in java print statments 
+             //  System.out.printf("%d * %d = %d \n", a, b , a*b);
+              System.out.println(a + "*" + b + "=" + (a*b));
            }
         
     }
+
+
 
     public static void main(String[] args){
         answers();
@@ -111,6 +115,7 @@ public class Question2 {
         answers4();
         answers5();
         answers6();
+        answers7();
         
 
     }
