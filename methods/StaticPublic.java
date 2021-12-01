@@ -14,7 +14,7 @@ public class StaticPublic {
         
 
     }
-    public void parts(){
+     void parts(){
         String powerTransmission = "Propeller Shaft";
         String tyres = "Off Road";
         int no_Of_Tyres = 8;

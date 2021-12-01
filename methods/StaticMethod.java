@@ -1,10 +1,7 @@
-
-
-
 class StaticMethod{
 
     //static method type double is the return type
-    static double sum(double a,float b){
+    static double sum(double a, double b){
         return a+b;
 
     }
@@ -17,9 +14,11 @@ class StaticMethod{
 
     public static void main (String[] args){
         //create object to instance method it's not invocation to directly 
-        double cc = (a,b) 50.2, 42.222;
-        num ci = new num;
-        ci = "hello"
+        StaticMethod integer1 = new StaticMethod();
+            integer1.num();
+       System.out.println(num);
+       sum();
+       
 
 
 

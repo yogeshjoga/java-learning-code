@@ -949,6 +949,24 @@ upto 256 printed
 	   // ! not    not True  mean false
 ```
 
+# INCREMETN AND DECREMENT OPERATORS
+ > There are two types of operators
+     1 Post 
+
+	 2 pre
+```java
+    post 
+	 	 a++; // this is the post oparator
+		++a; // this is the pre oparator
+		  // these two sis the increment oparators
+		--a; // this is the post oparator
+		a--; // this is the pre oparator
+		// these are the decrement oparators 
+		example: code 
+		      
+
+```
+
   
 
 
