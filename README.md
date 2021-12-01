@@ -972,9 +972,9 @@ upto 256 printed
 
 
 ```java
-__ Date 01/12/2021; __
+	Date 01/12/2021; 
 
-	public class Question2 {
+public class Question2 {
     static void answers(){
         // question 1 is 
         // 1 To write the programming to eligible for Tech mahe company interview only if 10th and 12th percentage is above 60.0 and btech is 70.0;
@@ -1071,7 +1071,7 @@ __ Date 01/12/2021; __
     }
 
     static void answers7(){
-        //write a programm to print multiplication by using while loop?
+        //write a programm to print multiplication by using  loops?
         int a=2;
            for(int b=0;b<=10;b++){
 
@@ -1096,6 +1096,34 @@ __ Date 01/12/2021; __
 
     }
 }
+
+
+OUTPUT
+
+	Your are the elegible to the interview
+
+
+	8 : This is the even number**
+
+
+	e : it is the vowel char
+
+
+	h : it is the lowercase letter!
+
+
+	1 : This the digit contains!
+
+	2*0=0
+	2*2=4
+	2*3=6
+	2*4=8
+	2*5=10
+	2*6=12
+	2*7=14
+	2*8=16
+	2*9=18
+	2*10=20
 
 ```
 
