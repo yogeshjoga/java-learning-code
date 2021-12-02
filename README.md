@@ -1130,7 +1130,12 @@ OUTPUT
   
 # if else LADER
 ```java
-			
+			//if else condtion
+			// minimum output is 0
+			// maximum output is 1
+			// write a number if-else blocks 
+			// else is not mandatory
+			// 
 ```
 
 
