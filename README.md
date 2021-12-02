@@ -1135,7 +1135,9 @@ OUTPUT
 			// maximum output is 1
 			// write a number if-else blocks 
 			// else is not mandatory
-			// 
+			// if ( condition passing)
+			// if-else (condition passing)
+			// else ( there is no codtiton to write in else block )
 ```
 
 
