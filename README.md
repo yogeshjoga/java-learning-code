@@ -1139,7 +1139,10 @@ OUTPUT
 			// if-else (condition passing)
 			// else ( there is no codtiton to write in else block )
 			// the if if-else else blocks and syntax is below down
-			
+
+
+			Example is :
+			       
 ```
 
 
