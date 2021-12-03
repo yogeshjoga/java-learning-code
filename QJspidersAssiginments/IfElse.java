@@ -40,27 +40,38 @@ class IfElse{
 
 
     void switchCase(){
-        char lett = 'u';
-        switch(lett){
-            case ('a'):
-            case ('e'):
-            case ('i'):
-            case ('o'):
-            case ('u'):
-            case ('A'):
-            case ('E'):
-            case ('I'):
-            case ('O'):
-            case ('U'):
+        char lett = '#';
+      if((lett>='a')&&(lett<='z')||(lett>='A')&&(lett<='Z')){
+          switch(lett){
+              case ('a'):
+              case ('e'):
+              case ('i'):
+              case ('o'):
+              case ('u'):
+              case ('A'):
+              case ('E'):
+              case ('I'):
+              case ('O'):
+              case ('U'):
                 System.out.println("\n" + lett + " : it is ovewl \n");
                 break;
             
-         default:{
+             default:{
                    System.out.println("\n" + lett + " : it is consonents ! \n");
-         }
-            
-            
+                }
+            }
+        }  
+
+
+        else if ((lett>=0) && (lett<=9)){
+             System.out.println(lett+ " : this is the number ! \n");
+
         }
+
+        else{
+            System.out.println(lett+ " : this is the special char \n");
+        }
+           
     }
 
 
