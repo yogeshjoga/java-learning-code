@@ -5,13 +5,13 @@ class IfElse{
         // ladder else if statment 
         int a = 9;
         if((a>='a')&&(a<='z')){
-            System.out.println(a+ " : it is the alphabet");
+            System.out.println("\n"+a+ " : it is the alphabet \n");
         }
         else if((a>=0) && (a<=9)){
-            System.out.println(a+ " : it is the number");
+            System.out.println("\n"+a+ " : it is the number \n");
         }
         else{
-            System.out.println(a+ " : it is the special char");
+            System.out.println("\n" +a+ " : it is the special char \n");
         }
     }
 
@@ -23,27 +23,65 @@ class IfElse{
         // soulution is ===>
         int a = 10;
         if((a%3==0)&&(a%4==0)){
-            System.out.println(a+ " : GOOD MORNING! ");
+            System.out.println("\n" + a+ " : GOOD MORNING! \n");
         }
         else if(a%3==0){
-            System.out.println(a+ " : GOOD AFTERNOON ! ");
+            System.out.println("\n" +a+ " : GOOD AFTERNOON !\n");
         }
         else if (a%4==0){
-            System.out.println(a+ " : GOOD EVENING! ");
+            System.out.println("\n" +a+ " : GOOD EVENING! \n");
         }
         else{
-            System.out.println(a+ " : GOOD NIGHT! ");
+            System.out.println("\n" +a+ " : GOOD NIGHT! \n");
         }
 
 
     }
 
 
+    void switchCase(){
+        char lett = 'u';
+        switch(lett){
+            case ('a'):
+            case ('e'):
+            case ('i'):
+            case ('o'):
+            case ('u'):
+            case ('A'):
+            case ('E'):
+            case ('I'):
+            case ('O'):
+            case ('U'):
+                System.out.println("\n" + lett + " : it is ovewl \n");
+                break;
+            
+         default:{
+                   System.out.println("\n" + lett + " : it is consonents ! \n");
+         }
+            
+            
+        }
+    }
+
+
     public static void main(String[] yogi){
-        ifElse();
+
+        // static method
+
+        ifElse(); // static method invoke by using method name 
+
+              /* Static methods are the methods in Java that can be called without creating an
+             object of class. They are referenced by the class name itself or reference to the Object of that class. */
+          
+          // Instance method 
+          /*methods which require an object of its class to be created before it 
+          can be called. To invoke a instance method, we have to create an Object
+         of the class in within which it defined.*/
+
         IfElse ladderElse = new IfElse();
-      ladderElse.newIfElse();
-     // System.out.println(ladderElse);
+        ladderElse.newIfElse();
+        ladderElse.switchCase();
+     
     }
 
 }
