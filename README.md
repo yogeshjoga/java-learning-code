@@ -1282,6 +1282,30 @@ OUTPUT
 
 
 # LOOPS
+ 
+  Wherever we need to perform the same operation again and again
+  we should make of loops they reduces the size of the code and
+  the readablity.
+
+  We have four types of Loop's in java
+						1) while Loop
+						2) do-while Loop
+						3) for Loop
+						4) for-each Loop
+						
+## while Loop :
+					The while loop block Execution many number of times based upon the 
+					condition output:
+```java
+		Syntax 
+			while (condtion or expression){
+				(statments)
+			}
+```
+
+
+## do-while Loop
+
 
 
 
