@@ -1,5 +1,7 @@
 public class NewPattern {
  public static void main(String[] args) {
+     // worng output 
+     // this is the right triangle print 
 
         int a=5,b,c;
 
