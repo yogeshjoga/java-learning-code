@@ -23,3 +23,13 @@ There are 4 types of loops in java
         }
         //Questions and answers in qjspider dir
 ```
+## for loop
+ 
+  ```java
+
+        Syntax
+             for(int i=0; i<=10; i++){
+                 System.out.println(i);
+             }
+
+  ```
