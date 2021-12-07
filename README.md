@@ -1483,7 +1483,33 @@ OUTPUT
 
 
 ## do-while Loop
+    Here do blocks to excuted first and then checks for the condition, 
+    The minimum number of while loop excutes is ZERO where is DO-WHILE
+    loop is excutes ONCE.
 
+```java
+    Syntax
+        do{
+            // loop body
+            // loop update
+            // loop statment
+        }
+        while(conditon); // semicolan is must
+
+    Break
+      break statment can be used even with in the loops.
+       Example 
+       // programm to print the numbers from (100-50)
+       int a = 100;
+       while(true){
+           if (i>=50){
+               System.out.println(i--);
+           }
+           else{
+               break;
+           }
+       }
+```
 
 
 
