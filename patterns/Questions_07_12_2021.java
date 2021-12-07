@@ -5,7 +5,7 @@ public class Questions_07_12_2021{
         System.out.println();
         System.out.println("========= WELCOME TO PATTERNS =========");
         System.out.println();
-        System.out.println("==== fist question ==== \n");
+        System.out.println("==== first question ==== \n");
         for(int a=1; a<=3; a++){ //outer for loop 
             for(int b=1; b<=3; b++){   // inner for loop or nested loop
                 System.out.print("$    "); // inner for loop statment 
@@ -112,9 +112,27 @@ public class Questions_07_12_2021{
           System.out.println();
         }
     }
+        
+
+    static void pattern1(){
+        System.out.println("\n ==== Right angle triangle pattern ==== \n");
+        for(int a=1;a<=6; a++){
+            for(int b=1;b<=a; b++){
+            System.out.print("*  ");
+             }
+           System.out.println();
+        }
+        System.out.println();
+    }
     
-
-
+    static void pattern2(){
+        for(int a=1;a<=6;a++){
+            for(int b=a;b<=6;b++){
+                System.out.print("h  ");
+            }
+            System.out.println();
+        }
+    }
      public static void main(String[] args) {
         sqr3_3();
         second2();
@@ -122,5 +140,8 @@ public class Questions_07_12_2021{
         fourth4();
         fifth5();
         sixth6();
+        pattern1();
+        pattern2();
+ 
     }
 }
