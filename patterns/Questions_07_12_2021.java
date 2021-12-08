@@ -58,6 +58,24 @@ public class Questions_07_12_2021{
         }
     }
 
+    static void fourth42(){
+        System.out.println("==== fourth2 answer ==== \n");
+        for(int a=1; a<=5; a++){
+            for(int b=1; b<=5; b++){
+                if(a==1 || a==5 || b==1 || b==5){
+                    System.out.print("*   ");
+                }
+                else{
+                    System.out.print("    ");
+                }
+            }
+            System.out.println("\n");
+        }
+
+    }
+
+
+
     static void fourth4(){
         System.out.println();
         System.out.println("==== fourth answer ==== \n");
@@ -81,6 +99,26 @@ public class Questions_07_12_2021{
         }
         System.out.println();
     }
+
+    static void fifth52(){
+        System.out.println("==== fifth2 answer ==== \n");
+        for (int a=1; a<=5; a++){
+            for(int b=1; b<=5; b++){
+                if(a==b){
+                    System.out.print("*   ");
+                }
+                else{
+                        System.out.print("    ");
+                    }
+                
+            }
+            System.out.println("\n");
+        }
+    }
+
+
+
+
 
     static void fifth5(){
         System.out.println("==== fifth answer ==== \n");
@@ -133,12 +171,23 @@ public class Questions_07_12_2021{
             System.out.println();
         }
     }
+
+    static void ifnumbers(){
+        int a=1;
+       // int b=10;
+        if (a==1){
+            a++;
+            System.out.println('a'); 
+        }
+    }
      public static void main(String[] args) {
         sqr3_3();
         second2();
         th3rd();
         fourth4();
+        fourth42();
         fifth5();
+        fifth52();
         sixth6();
         pattern1();
         pattern2();
