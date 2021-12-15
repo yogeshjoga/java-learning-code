@@ -137,6 +137,9 @@ public class arrow {
      arrow2();
      doubleArrow();
      //dimond();
+
+
+     
      numbers();
     }
 }
