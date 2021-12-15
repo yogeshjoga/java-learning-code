@@ -8,6 +8,9 @@ public class arrow {
     **
      *
  */
+
+
+ 
         // spilt into two parts of this pattern 1st  a
         // 1st one is the spaces decrement star printing b
         // 2nd increment star printing
