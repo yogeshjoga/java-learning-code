@@ -1546,12 +1546,97 @@ OUTPUT
 
 ````
 
+# METHODS 
+  
+  METHODS 
+        Methods are used to perform operationsby writing the instructionswith in its a block
+        We can create any number of methods injava for each an every operation in the applications.
+
+    A method consisting of two parts
+      1) method declearation.
+      2) method implementation.
+
+```java
+        Syntax of java method
+            
+            public static void myMethod(FormalArguments){
+               
+               
+               public ===> access specfier
+                static ===> access modifier
+                void ===> return type
+                myMethod ===> name of the method
+                () ===> inside the parentheses formal arguments
+                
+
+                statments 
+                method context or method implementation
+                
+            }
+
+```
+
+  every method is represented by it's own signature which is ntg but method name with foraml arugs.
+  we can wirte any number of methods apart from main method to excuted orther methods we used called
+  those methods by using ther signatures the method signature which is used to transfer the JVM control
+  to a particluar method is knwon as method calling statment.
+
+  main(String[] args) 
+    main method is just line any orther methods except that the JVM starts excuation from the main method.
+
+ Differnt ways of creating the methods:
+    method with formal arguments
+
+    formal arguments are th variable decleartion in the method
+    formal args are use to recevice the inputs from method calling statment
+    formal args can be later Reinitialization and they will initialization very first time though method calling statment.
+    the values will pass though methods  calling statments to the with formal args are know as actuall args.
+
+
+```java
+    class faceBook{
+        public static void login(){
+            System.out.println("this is the login method : ");
+
+        }
+        public static void main(String[] args){
+            login();
+        }
+    }
 
 
 
 
+ class faceBook1{
+        public static void login(String userName,String passWord){
+            System.out.println("this is the login method : ");
+            userName = "yogesh Joga";  //reinit
+            System.out.println("login of" + userName + " ready to ur account ");
+            
+        }
+        public static void main(String[] args){
+
+            login("yogi"," ********** "); // method calling statment
+        }
+    }
+    
+
+ class faceBook2{
+
+       public static void login(String userName, String passWord){
+           System.out.print("login of " + userName + " your account is ready to use ");
+       }
+
+       public static void main(String[] args){
+           String userName="yogi";
+           String passWord = " ************ " ;
+            login(userName,passWord); // method calling statment
+        }
+
+    }
 
 
+```
 
 
 <br>

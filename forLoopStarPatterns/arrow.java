@@ -95,6 +95,9 @@ public class arrow {
        System.out.println(" \n \n The END the double arrow \n \n");
     }
 
+
+
+
     static void dimond(){
         int star =5, space = 0;
         for(int a=1; a<=7; a++){
@@ -104,7 +107,7 @@ public class arrow {
             }
             else{
                 star++;
-                ++space;
+                --space;
             }
             for(int b=1;b<=star; b++){
                 System.out.print("*");
@@ -112,7 +115,21 @@ public class arrow {
             for(int b=1; b<=space; b++){
                 System.out.print(" ");
             }
-           // for(int b=1; b<=a)
+          /*  if(a<=4){
+                ++space;
+                star--;
+            }
+            else{
+                star++;
+                --space;
+            }
+            for(int b=1;b<=space; b++){
+                System.out.print(" ");
+            }
+            for(int b=1; b<=star; b++){
+                System.out.print("*");
+            }
+           */
 
 
          
@@ -120,26 +137,54 @@ public class arrow {
          System.out.println();
         }
     }
+   
+    static void dimond2(){
+      //  int star=0,space=1;
+        for(int a=1;a<=7;a++){
+          for(int b=1;b<=7;b++){
+              System.out.print("*");
+          }  
+          System.out.println(); 
+        }
+        System.out.println(" \n \n The END the dimond \n \n");
+    }
+
 
 
     static void numbers(){
-        int n=1,n1=0;
+        int n=0,n1=0;
         for(int a=1;a<=4;a++){
-            
-            n1++;
-            for(int b=1; b<=n1; b++){
-                
+             n++;
+            for(int b=1; b<=n; b++){
+
+                n1++;
                 System.out.print(n1);
             }
             System.out.println();
         }
+        System.out.println(" \n \n The END the numbers \n \n");
+    }
+
+
+
+    static void numbers2(){
+        for(int a=1;a<=5;a++){
+            for(int b=1;b<=a; b++){
+                System.out.print(b);
+            }
+            System.out.println();
+        }
+        System.out.println(" \n \n The END the nubmers2 \n \n");
     }
 
 
  public static void main(String[] args) {
      arrow2();
      doubleArrow();
-     //dimond();
+     dimond();
+     dimond2();
      numbers();
+     numbers2();
+     
     }
 }
