@@ -1639,6 +1639,18 @@ OUTPUT
 ```
 
 
+
+
+# Compile time binding
+    compile time binging between the method calling statment and the implementation
+    of a particlualr method access during compliation based upon actual and formal args is know as CTB.
+      
+      During CTB compilers chekcs the datatype of actual args adn th formal args for the same datatype
+      if you dont find same datatype complet to try's  to perform the auto widing and then the binding.
+
+      If a compiler could not find the suitable args then he thought the CTE.
+      
+
 <br>
 
 <br>
