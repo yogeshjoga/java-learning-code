@@ -89,35 +89,75 @@ class NumbersMirror{
 
     // range of prime numbers to create the programming
     static int primeNumbers(int a,int b ){
-        int c=0;
         System.out.println("\n ========= Range of Prime numbers series =============== \n ");
         for(int d=a; d<=b; d++){
-            for(int y=1;y<=a;y++){
-                if(y%a==0){
+            int c=0;
+            for(int y=1;y<=d;y++){
+                if(d%y==0){
                     c++;
                 }
-
             }
             if(c==2){
-                System.out.println("it a prime number : "+a );
+                System.out.println("it a prime number : "+d );
             }
             else{
-                System.out.println("it not a prime number : "+a );
+                System.out.println("it not a prime number : "+d);
             }
         }
-        return a;
+        return 0;
     }
+
+
+    static void primeNumbers1(){
+     
+        System.out.println("\n ========= Range of Prime numbers series =============== \n ");
+        for(int d=10; d<=100; d++){
+            int c=0;
+            for(int y=1;y<=d;y++){
+                if(d%y==0){
+                    c++;
+                }
+            }
+            
+            if(c==2){
+                System.out.println("it a prime number : "+d );
+            }
+            else{
+                System.out.println("it not a prime number : "+d);
+            }
+         }
+        
+    }
+
+
+
+
+
    
     // Strong number checking 
     static int strongNumber(int num){
-        int a;
-        for(int y=1;y<=num; y++){
-          a=y*num;
-          
-
-          System.out.println(a);
+        int a=1,b,c,d,f;
+        int e=0;
+       f= num;
+        // as a input taken from main method 145
+        while(num!=0){
+            b=num%10;
+            c=b;
+            d=num/10;
+          for(int y=1;y<=num; y++){
+              a=a*y;
+              e=e+a;
+           }
+        
+           if(f==e){
+               System.out.println(f +" : it is strong Number");
+           }
+           else{
+            System.out.println(f +" : it is not a strong Number");
+           }
         }
-       // System.out.println(a);
+        
+       System.out.println(a);
       return 0;
     }
     
@@ -141,8 +181,9 @@ class NumbersMirror{
         numMirror3(122221);
         primeNumber(23);
         primeNumbers(10 , 200);
+        primeNumbers1();
         fabNum();
-        strongNumber(5);
+        //strongNumber(5);
         fact();
     }
 }
