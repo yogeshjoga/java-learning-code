@@ -180,9 +180,10 @@ class NumbersMirror{
         while(num!=0){
             rem=num%10;
             sum=sum+factForStrong(rem);
-            System.out.println(sum);
+           
             n=n/10;
         }
+        System.out.println(sum);
         return sum;
     }
     
@@ -198,6 +199,57 @@ class NumbersMirror{
         }
         System.out.println( num+" : factroial is : "+ a +"\n");
     }
+    
+
+
+    // swap two numbers
+    static int swapNum(int num,int num1){
+        int c, a=num,b=num1;
+        c=num;
+        num=num1;
+        num1=c;
+        System.out.println(a+" swaped into  "+ num +" "+ b+" swaped into  " +b+"\n");
+        return 0;
+    }
+
+    // swap number without using 3rd variable 
+    static int swapNum3rd(int num,int num1){
+        num=num+num1;
+        num1=num-num1;
+        num=num-num1;
+        System.out.println(" swaped into  "+ num +" "+" swaped into  " +num1+"\n");
+        return 0;
+    }
+
+
+    // Given number as how many odd numbers having
+    static int oddNum(int num){
+        int b,d=0;
+        while(num!=0){
+            b=num%10;
+            if(b%2!=0){
+                d++;
+            }
+            num/=10;
+
+        }
+        System.out.println(d + "\n");
+        return d;
+    }
+
+    // find odd number and to convert into squares and adding all odd squars
+    static int oddNumSqr(int num){
+        int b,d=0;
+        while(num!=0){
+            b=num%10;
+            if(b%2!=0){
+                d=d+b*b;
+            }
+            num/=10;
+        }
+        System.out.println(d + "\n");
+        return d;
+    }
 
 
     public static void main(String[] args) {
@@ -208,8 +260,13 @@ class NumbersMirror{
         primeNumbers(10 , 200);
         primeNumbers1();
         fabNum();
-        strongNumber12(145);
+       // strongNumber12(145);
         fact();
+        swapNum(10, 20);
+        swapNum3rd(30, 50);
+        oddNum(123456);
+        oddNumSqr(123456);
+
     }
 }
 
