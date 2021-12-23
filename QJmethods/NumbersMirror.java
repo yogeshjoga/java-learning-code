@@ -98,7 +98,7 @@ class NumbersMirror{
                 }
             }
             if(c==2){
-                System.out.println("it a prime number : "+d );
+                System.out.println("it a prime number : "+d + "\n" );
             }
             else{
                 System.out.println("it not a prime number : "+d);
@@ -110,7 +110,7 @@ class NumbersMirror{
 
     static void primeNumbers1(){
      
-        System.out.println("\n ========= Range of Prime numbers series =============== \n ");
+        System.out.println("\n ========= Range of Prime numbers2nd type series =============== \n ");
         for(int d=10; d<=100; d++){
             int c=0;
             for(int y=1;y<=d;y++){
@@ -135,6 +135,7 @@ class NumbersMirror{
 
    
     // Strong number checking 
+    // not working this 
     static int strongNumber(int num){
         int a=1,b,c,d,f;
         int e=0;
@@ -160,6 +161,30 @@ class NumbersMirror{
        System.out.println(a);
       return 0;
     }
+
+    //Strong number 
+    // Qj solution
+    // we can take help from extra method
+    static int factForStrong(int rem){
+        int a=1;
+        for(int b=1;b<=rem;b++){
+            a=a*b;
+        }
+        return a;
+    }
+
+    // main method for Strong number finding
+    static int strongNumber12(int num){
+        int rem,sum=0,n=num;
+        System.out.println("\n ========= Strong Number =============== \n ");
+        while(num!=0){
+            rem=num%10;
+            sum=sum+factForStrong(rem);
+            System.out.println(sum);
+            n=n/10;
+        }
+        return sum;
+    }
     
 
     // demo fact 
@@ -183,7 +208,7 @@ class NumbersMirror{
         primeNumbers(10 , 200);
         primeNumbers1();
         fabNum();
-        //strongNumber(5);
+        strongNumber12(145);
         fact();
     }
 }
