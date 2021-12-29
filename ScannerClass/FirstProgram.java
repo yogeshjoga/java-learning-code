@@ -9,11 +9,11 @@ public class FirstProgram{
     public static void main(String[] args) {
         System.out.println("Enter two numbers : ");
         Scanner intA = new Scanner(System.in), intB = new Scanner(System.in);
-        int a=intA.nextInt();
-        
+        int a = intA.nextInt();
         int b = intB.nextInt();
         addition(a,b);
 
     }
 
 }
+
