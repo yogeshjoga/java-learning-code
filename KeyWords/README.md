@@ -48,7 +48,7 @@ A list of Java keywords or reserved words are given below:
 ! implements: Java implements keyword is used to implement an interface.
 
 + import: Java import keyword makes classes and interfaces available and accessible to the current source code.
-instanceof: Java instanceof keyword is used to test whether the object is an instance of the specified class or implements an interface.
+@@ instanceof: Java instanceof keyword is used to test whether the object is an instance of the specified class or implements an interface. @@
 int: Java int keyword is used to declare a variable that can hold a 32-bit signed integer.
 interface: Java interface keyword is used to declare an interface. It can have only abstract methods.
 long: Java long keyword is used to declare a variable that can hold a 64-bit integer.
