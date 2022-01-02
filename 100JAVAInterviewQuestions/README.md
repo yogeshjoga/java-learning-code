@@ -338,7 +338,7 @@ private	Y	N	N	N
 
 ###  ``` Q54. What’s difference between Stack and Queue? ``` &#x1F4BB;
 Ans: Stack and Queue both are used as placeholder for a collection of data. The primary difference between a stack and a queue is that stack is based on Last in First out (LIFO) principle while a queue is based on FIFO (First In First Out) principle.
-### Q55. In java, how we can disallow serialization of variables? &#x1F4BB;
+### ``` Q55. In java, how we can disallow serialization of variables? ``` &#x1F4BB;
 Ans: If we want certain variables of a class not to be serialized, we can use the keyword transient while declaring them. For example, the variable trans_var below is a transient variable and can’t be serialized:
 ```java
 public class transientExample { 
@@ -346,21 +346,21 @@ public class transientExample {
     // rest of the code 
 }
 ```
-### Q56. How can we use primitive data types as objects? &#x1F4BB;
+### ``` Q56. How can we use primitive data types as objects? ``` &#x1F4BB;
 Ans: Primitive data types like int can be handled as objects by the use of their respective wrapper classes. For example, Integer is a wrapper class for primitive data type int. We can apply different methods to a wrapper class, just like any other object.
-### Q57. Which types of exceptions are caught at compile time? &#x1F4BB;
+### ``` Q57. Which types of exceptions are caught at compile time? ``` &#x1F4BB;
 Ans: Checked exceptions can be caught at the time of program compilation. Checked exceptions must be handled by using try catch block in the code in order to successfully compile the code.
-### Q58. Describe different states of a thread. &#x1F4BB;
+### ``` Q58. Describe different states of a thread. ``` &#x1F4BB;
 Ans: A thread in Java can be in either of the following states:
 •	Ready: When a thread is created, it’s in Ready state.
 •	Running: A thread currently being executed is in running state.
 •	Waiting: A thread waiting for another thread to free certain resources is in waiting state.
 •	Dead: A thread which has gone dead after execution is in dead state.
-### Q59. Can we use a default constructor of a class even if an explicit constructor is defined? &#x1F4BB;
+### ``` Q59. Can we use a default constructor of a class even if an explicit constructor is defined? ``` &#x1F4BB;
 Ans: Java provides a default no argument constructor if no explicit constructor is defined in a Java class. But if an explicit constructor has been defined, default constructor can’t be invoked and developer can use only those constructors which are defined in the class.
-### Q60. Can we override a method by using same method name and arguments but different return types? &#x1F4BB;
+###  ``` Q60. Can we override a method by using same method name and arguments but different return types? ``` &#x1F4BB;
 Ans: The basic condition of method overriding is that method name, arguments as well as return type must be exactly same as is that of the method being overridden. Hence using a different return type doesn’t override a method.
-### Q61.What will be the output of following piece of code? &#x1F4BB;
+### ``` Q61.What will be the output of following piece of code? ``` &#x1F4BB;
 ```java
 public class operatorExample {
 
@@ -375,27 +375,27 @@ public class operatorExample {
 Ans: In this case postfix ++ operator is used which first returns the value and then increments. Hence it’s output will be 4.
 
 ```
-### Q61. A person says that he compiled a java class successfully without even having a main method in it? Is it possible? &#x1F4BB;
+###  ``` Q61. A person says that he compiled a java class successfully without even having a main method in it? Is it possible? ``` &#x1F4BB;
 Ans: main method is an entry point of Java class and is required for execution of the program however; a class gets compiled successfully even if it doesn’t have a main method. It can’t be run though.
-### Q62. Can we call a non-static method from inside a static method? &#x1F4BB;
+### ``` Q62. Can we call a non-static method from inside a static method? ``` &#x1F4BB;
 Ans: Non-Static methods are owned by objects of a class and have object level scope and in order to call the non-Static methods from a static block (like from a static main method), an object of the class needs to be created first. Then using object reference, these methods can be invoked.
-### Q63. What are the two environment variables that must be set in order to run any Java programs? &#x1F4BB;
+### ``` Q63. What are the two environment variables that must be set in order to run any Java programs? ``` &#x1F4BB;
 Ans: Java programs can be executed in a machine only once following two environment variables have been properly set:
 1.	PATH variable
 2.	CLASSPATH variable
-### Q64. Can variables be used in Java without initialization? &#x1F4BB;
+###  ``` Q64. Can variables be used in Java without initialization? ``` &#x1F4BB;
 Ans: In Java, if a variable is used in a code without prior initialization by a valid value, program doesn’t compile and gives an error as no default value is assigned to variables in Java.
-### Q65. Can a class in Java be inherited from more than one class? &#x1F4BB;
+### ``` Q65. Can a class in Java be inherited from more than one class? ``` &#x1F4BB;
 Ans: In Java, a class can be derived from only one class and not from multiple classes. Multiple inheritances is not supported by Java.
-### Q66. Can a constructor have different name than a Class name in Java? &#x1F4BB;
+### ``` Q66. Can a constructor have different name than a Class name in Java? ``` &#x1F4BB;
 Ans: Constructor in Java must have same name as the class name and if the name is different, it doesn’t act as a constructor and compiler thinks of it as a normal method.
-### Q67. What will be the output of Round(3.7) and Ceil(3.7)? &#x1F4BB;
+### ``` Q67. What will be the output of Round(3.7) and Ceil(3.7)?``` &#x1F4BB;
 Ans: Round(3.7) returns 4 and Ceil(3.7) returns 4.
-### Q68: Can we use goto in Java to go to a particular line? &#x1F4BB;
+### ``` Q68: Can we use goto in Java to go to a particular line? ``` &#x1F4BB;
 Ans: In Java, there is not goto keyword and java doesn’t support this feature of going to a particular labeled line.
-### Q69. Can a dead thread be started again? &#x1F4BB;
+### ``` Q69. Can a dead thread be started again? ``` &#x1F4BB;
 Ans: In java, a thread which is in dead state can’t be started again. There is no way to restart a dead thread.
-### Q70. Is the following class declaration correct? &#x1F4BB;
+### ``` Q70. Is the following class declaration correct? ``` &#x1F4BB;
 ```java
 Ans:
 public abstract final class testClass {
@@ -404,9 +404,9 @@ public abstract final class testClass {
 
 Ans: The above class declaration is incorrect as an abstract class can’t be declared as Final.
 ```
-### Q71. Is JDK required on each machine to run a Java program? &#x1F4BB;
+### ```  Q71. Is JDK required on each machine to run a Java program? ``` &#x1F4BB;
 Ans: JDK is development Kit of Java and is required for development only and to run a Java program on a machine, JDK isn’t required. Only JRE is required.
-### Q72. What’s the difference between comparison done by equals method and == operator? &#x1F4BB;
+### ``` Q72. What’s the difference between comparison done by equals method and == operator? ``` &#x1F4BB;
 Ans: In Java, equals() method is used to compare the contents of two string objects and returns true if the two have same value while == operator compares the references of two string objects.
 In the following example, equals() returns true as the two string objects have same values. However == operator returns false as both string objects are referencing to different
 
@@ -448,29 +448,29 @@ public class equalsTest {
 
 }
 ```
-### Q73. Is it possible to define a method in Java class but provide it’s implementation in the code of another language like C? &#x1F4BB;
+### ``` Q73. Is it possible to define a method in Java class but provide it’s implementation in the code of another language like C?  ``` &#x1F4BB;
 Ans: Yes, we can do this by use of native methods. In case of native method based development, we define public static methods in our Java class without its implementation and then implementation is done in another language like C separately.
-### Q74. How are destructors defined in Java? &#x1F4BB; 
+### ``` Q74. How are destructors defined in Java? ``` &#x1F4BB; 
 Ans: In Java, there are no destructors defined in the class as there is no need to do so. Java has its own garbage collection mechanism which does the job automatically by destroying the objects when no longer referenced.
-### Q75. Can a variable be local and static at the same time? &#x1F4BB;
+### ``` Q75. Can a variable be local and static at the same time? ``` &#x1F4BB;
 Ans: No a variable can’t be static as well as local at the same time. Defining a local variable as static gives compilation error.
-### Q76. Can we have static methods in an Interface? &#x1F4BB;
+### ``` Q76. Can we have static methods in an Interface? ``` &#x1F4BB;
 Ans: Static methods can’t be overridden in any class while any methods in an interface are by default abstract and are supposed to be implemented in the classes being implementing the interface. So it makes no sense to have static methods in an interface in Java.
-### Q77. In a class implementing an interface, can we change the value of any variable defined in the interface? &#x1F4BB;
+### ``` Q77. In a class implementing an interface, can we change the value of any variable defined in the interface? ``` &#x1F4BB;
 Ans: No, we can’t change the value of any variable of an interface in the implementing class as all variables defined in the interface are by default public, static and Final and final variables are like constants which can’t be changed later.
-### Q78. Is it correct to say that due to garbage collection feature in Java, a java program never goes out of memory? &#x1F4BB;
+### ``` Q78. Is it correct to say that due to garbage collection feature in Java, a java program never goes out of memory? ``` &#x1F4BB;
 Ans: Even though automatic garbage collection is provided by Java, it doesn’t ensure that a Java program will not go out of memory as there is a possibility that creation of Java objects is being done at a faster pace compared to garbage collection resulting in filling of all the available memory resources.
 So, garbage collection helps in reducing the chances of a program going out of memory but it doesn’t ensure that.
-### Q79. Can we have any other return type than void for main method? &#x1F4BB;
+### ``` Q79. Can we have any other return type than void for main method? ``` &#x1F4BB;
 Ans: No, Java class main method can have only void return type for the program to get successfully executed.
 Nonetheless , if you absolutely must return a value to at the completion of main method , you can use System.exit(int status)
-### Q80. I want to re-reach and use an object once it has been garbage collected. How it’s possible? &#x1F4BB;
+### ``` Q80. I want to re-reach and use an object once it has been garbage collected. How it’s possible? ``` &#x1F4BB;
 Ans: Once an object has been destroyed by garbage collector, it no longer exists on the heap and it can’t be accessed again. There is no way to reference it again.
-### Q81. In Java thread programming, which method is a must implementation for all threads? &#x1F4BB;
+### ``` Q81. In Java thread programming, which method is a must implementation for all threads? ``` &#x1F4BB;
 Ans: Run() is a method of Runnable interface that must be implemented by all threads.
-### Q82. I want to control database connections in my program and want that only one thread should be able to make database connection at a time. How can I implement this logic? &#x1F4BB;
+### ``` Q82. I want to control database connections in my program and want that only one thread should be able to make database connection at a time. How can I implement this logic? ``` &#x1F4BB;
 Ans: This can be implemented by use of the concept of synchronization. Database related code can be placed in a method which hs synchronized keyword so that only one thread can access it at a time.
-### Q83. How can an exception be thrown manually by a programmer? &#x1F4BB;
+### ``` Q83. How can an exception be thrown manually by a programmer?``` &#x1F4BB;
 Ans: In order to throw an exception in a block of code manually, throw keyword is used. Then this exception is caught and handled in the catch block.
 ```java
 public void topMethod() {
@@ -486,22 +486,22 @@ public void excMethod {
         }
     }
 ```
-### Q84. I want my class to be developed in such a way that no other class (even derived class) can create its objects. How can I do so? &#x1F4BB;
+### ``` Q84. I want my class to be developed in such a way that no other class (even derived class) can create its objects. How can I do so? ``` &#x1F4BB;
 Ans: If we declare the constructor of a class as private, it will not be accessible by any other class and hence, no other class will be able to instantiate it and formation of its object will be limited to itself only.
-### Q85. How objects are stored in Java? &#x1F4BB;
+### ``` Q85. How objects are stored in Java? ``` &#x1F4BB;
 Ans: In java, each object when created gets a memory space from a heap. When an object is destroyed by a garbage collector, the space allocated to it from the heap is re-allocated to the heap and becomes available for any new objects.
-### Q86. How can we find the actual size of an object on the heap?
+### ``` Q86. How can we find the actual size of an object on the heap? ```&#x1F4BB;
 Ans: In java, there is no way to find out the exact size of an object on the heap.
-### Q87. Which of the following classes will have more memory allocated? &#x1F4BB;
+### ``` Q87. Which of the following classes will have more memory allocated? ``` &#x1F4BB;
 Class A: Three methods, four variables, no object
 Class B: Five methods, three variables, no object
 Ans: Memory isn’t allocated before creation of objects. Since for both classes, there are no objects created so no memory is allocated on heap for any class.
-### Q88. What happens if an exception is not handled in a program? &#x1F4BB;
+### ``` Q88. What happens if an exception is not handled in a program? ``` &#x1F4BB;
 Ans: If an exception is not handled in a program using try catch blocks, program gets aborted and no statement executes after the statement which caused exception throwing.
-### Q89. I have multiple constructors defined in a class. Is it possible to call a constructor from another constructor’s body? &#x1F4BB;
+### ``` Q89. I have multiple constructors defined in a class. Is it possible to call a constructor from another constructor’s body? ``` &#x1F4BB;
 Ans: If a class has multiple constructors, it’s possible to call one constructor from the body of another one using this().
 
-### Q90. What’s meant by anonymous class? &#x1F4BB;
+### ``` Q90. What’s meant by anonymous class? ``` &#x1F4BB;
 Ans: An anonymous class is a class defined without any name in a single line of code using new keyword.
 For example, in below code we have defined an anonymous class in one line of code:
 ```java
@@ -539,23 +539,23 @@ public java.util.Enumeration testMethod()
 
     }
 ```
-### Q91. Is there a way to increase the size of an array after its declaration? &#x1F4BB;
+### ``` Q91. Is there a way to increase the size of an array after its declaration?  ``` &#x1F4BB;
 Ans: Arrays are static and once we have specified its size, we can’t change it. If we want to use such collections where we may require a change of size ( no of items), we should prefer vector over array.
 
 
-### Q92. If an application has multiple classes in it, is it okay to have a main method in more than one class? &#x1F4BB;
+### ``` Q92. If an application has multiple classes in it, is it okay to have a main method in more than one class? ``` &#x1F4BB;
 Ans: If there is main method in more than one classes in a java application, it won’t cause any issue as entry point for any application will be a specific class and code will start from the main method of that particular class only.
-### Q93. I want to persist data of objects for later use. What’s the best approach to do so? &#x1F4BB;
+### ``` Q93. I want to persist data of objects for later use. What’s the best approach to do so? ``` &#x1F4BB;
 Ans: The best way to persist data for future use is to use the concept of serialization.
-### Q94. What is a Local class in Java? &#x1F4BB;
+### ``` Q94. What is a Local class in Java? ``` &#x1F4BB;
 Ans: In Java, if we define a new class inside a particular block, it’s called a local class. Such a class has local scope and isn’t usable outside the block where its defined.
-### Q95. String and StringBuffer both represent String objects. Can we compare String and StringBuffer in Java? &#x1F4BB;
+### ``` Q95. String and StringBuffer both represent String objects. Can we compare String and StringBuffer in Java? ``` &#x1F4BB;
 Ans: Although String and StringBuffer both represent String objects, we can’t compare them with each other and if we try to compare them, we get an error.
-### Q96. Which API is provided by Java for operations on set of objects? &#x1F4BB;
+### ``` Q96. Which API is provided by Java for operations on set of objects? ``` &#x1F4BB;
 Ans: Java provides a Collection API which provides many useful methods which can be applied on a set of objects. Some of the important classes provided by Collection API include ArrayList, HashMap, TreeSet and TreeMap.
-### Q97. Can we cast any other type to Boolean Type with type casting? &#x1F4BB;
+### ``` Q97. Can we cast any other type to Boolean Type with type casting? ``` &#x1F4BB;
 Ans: No, we can neither cast any other primitive type to Boolean data type nor can cast Boolean data type to any other primitive data type.
-### Q98. Can we use different return types for methods when overridden? &#x1F4BB;
+### ``` Q98. Can we use different return types for methods when overridden? ``` &#x1F4BB;
 Ans: The basic requirement of method overriding in Java is that the overridden method should have same name, and parameters.But a method can be overridden with a different return type as long as the new return type extends the original.
 
 ```java
@@ -576,9 +576,9 @@ Class B extends A {
 
 }
 ```
-### Q99. What’s the base class of all exception classes? &#x1F4BB;
+### ``` Q99. What’s the base class of all exception classes? ``` &#x1F4BB;
 Ans: In Java, Java.lang.Throwable is the super class of all exception classes and all exception classes are derived from this base class.
-### Q100. What’s the order of call of constructors in inheritance? &#x1F4BB;
+### ``` Q100. What’s the order of call of constructors in inheritance?``` &#x1F4BB;
 Ans: In case of inheritance, when a new object of a derived class is created, first the constructor of the super class is invoked and then the constructor of the derived class is invoked.
 
 
