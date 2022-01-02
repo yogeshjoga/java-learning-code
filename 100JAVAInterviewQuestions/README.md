@@ -1,7 +1,7 @@
 # Top 100 Java Interview Questions and Answers by JOGA YOGESH &#x1F602;
 
 
-``` ### + Q1. What is the difference between an Inner Class and a Sub-Class? ```&#x1F4BB; 
+### ``` + Q1. What is the difference between an Inner Class and a Sub-Class? ```&#x1F4BB; 
 Ans: An Inner class is a class which is nested within another class. An Inner class has access rights for the class which is nesting it and it can access all variables and methods defined in the outer class.
 A sub-class is a class which inherits from another class called super class. Sub-class can access all public and protected methods and fields of its super class.
 Top 10 Behavioral Interview Questions and Answers
