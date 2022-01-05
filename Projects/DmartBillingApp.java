@@ -48,6 +48,42 @@ public class DmartBillingApp {
     }
 
     void products(){
+        //Brands for shirts
+        String brand1 = "U.S.Polo";
+        String brand2 = "PUMA";
+        String brand3 = "Highlander";
+        String brand4 = "Roadstar";
+        String brand5 = "Nike";
+        // product price Tag's
+        int priceTag1 =1999;
+        int priceTag2 =2999;
+        int priceTag3 =999;
+        int priceTag4 =1299;
+        int priceTag5 =4999;
+        // product ID's
+        int id1 = 102051;
+        int id2 = 400052;
+        int id3 = 710153;
+        int id4 = 669954;
+        int id5 = 102055;
+        // jeans pants brands
+        String brandP1 = "U.S.Polo jeans";
+        String brandP2 = "PUMA jeans";
+        String brandP3 = "Highlander jeans";
+        String brandP4 = "Roadstar jeans";
+        String brandP5 = "Nike jeans";
+        // product price tag for pants
+        int priceTagP1 =3999;
+        int priceTagP2 =1999;
+        int priceTagP3 =1999;
+        int priceTagP4 =1399;
+        int priceTagP5 =2399; 
+        // product ID's
+        int idP1 = 902061;
+        int idP2 = 600062;
+        int idP3 = 710163;
+        int idP4 = 369964;
+        int idP5 = 502065;
         System.out.println("\n----------------------------------------------------------");
         System.out.println("                   WELCOME TO DMART                         ");
         System.out.println("               SELECT THE YOUR PRODUCTS                     ");
@@ -101,57 +137,13 @@ public class DmartBillingApp {
                 System.out.println(jj+" How many shirts you want?");
                 break;
         }
-       
-        
-  //  }
-
-
-   // public static void shoppingItems(){
-       //Brands for shirts
-        String brand1 = "U.S.Polo";
-        String brand2 = "PUMA";
-        String brand3 = "Highlander";
-        String brand4 = "Roadstar";
-        String brand5 = "Nike";
-        // product price Tag's
-        int priceTag1 =1999;
-        int priceTag2 =2999;
-        int priceTag3 =999;
-        int priceTag4 =1299;
-        int priceTag5 =4999;
-        // product ID's
-        int id1 = 102051;
-        int id2 = 400052;
-        int id3 = 710153;
-        int id4 = 669954;
-        int id5 = 102055;
-        // jeans pants brands
-        String brandP1 = "U.S.Polo jeans";
-        String brandP2 = "PUMA jeans";
-        String brandP3 = "Highlander jeans";
-        String brandP4 = "Roadstar jeans";
-        String brandP5 = "Nike jeans";
-        // product price tag for pants
-        int priceTagP1 =3999;
-        int priceTagP2 =1999;
-        int priceTagP3 =1999;
-        int priceTagP4 =1399;
-        int priceTagP5 =2399; 
-        // product ID's
-        int idP1 = 902061;
-        int idP2 = 600062;
-        int idP3 = 710163;
-        int idP4 = 369964;
-        int idP5 = 502065;
-
-    
         // total price of prodcts
         Scanner quantity = new Scanner(System.in);
         int a = quantity.nextInt();
         long totalPrice = a*priceTag1;
         // now printing the values
 	    //System.out.println("----------------------------------------------------------");
-    
+        
 
         System.out.println(id1+"   "+brand1+"                "+a+"           "+priceTag1+"         "+totalPrice);
         System.out.println(id2+"   "+brand2+"                    "+a+"           "+priceTag2+"         "+totalPrice);
@@ -166,58 +158,6 @@ public class DmartBillingApp {
 
 
     }
-
-
-   /* void shirts(){
-        // System.out.println("====================== Types of Shirts ==================="); 
-        String brand1 = "U.S.Polo";
-        String brand2 = "PUMA";
-        String brand3 = "Highlander";
-        String brand4 = "Roadstar";
-        String brand5 = "Nike";
-        // product price Tag's
-        int priceTag1 =1999;
-        int priceTag2 =2999;
-        int priceTag3 =999;
-        int priceTag4 =1299;
-        int priceTag5 =4999;
-        // product ID's
-        int id1 = 102033;
-        int id2 = 400025;
-        int id3 = 710195;
-        int id4 = 669988;
-        int id5 = 102030;
-
-
-        // total price of prodcts
-        Scanner quantity = new Scanner(System.in);
-        int a = quantity.nextInt();
-        long totalPrice = a*priceTag1;
-        // now printing the values
-	    //System.out.println("----------------------------------------------------------");
-        System.out.println(id1+"   "+brand1+"          "+a+"           "+priceTag1+"         "+totalPrice);
-        System.out.println(id2+"   "+brand2+"              "+a+"           "+priceTag2+"         "+totalPrice);
-        System.out.println(id3+"   "+brand3+"        "+a+"           "+priceTag3+"          "+totalPrice);
-        System.out.println(id4+"   "+brand4+"          "+a+"           "+priceTag4+"         "+totalPrice);
-        System.out.println(id5+"   "+brand5+"              "+a+"           "+priceTag5+"         "+totalPrice);
-
-
-    }
-    void pants(){
-       // System.out.println("================== Types of Jens Pants ===================");
-        String brand1 = "U.S.Polo jeans";
-        String brand2 = "PUMA jeans";
-        String brand3 = "Highlander jeans";
-        String brand4 = "Roadstar jeans";
-        String brand5 = "Nike jeans";
-        int priceTag1 =3999;
-        int priceTag2 =1999;
-        int priceTag3 =1999;
-        int priceTag4 =1399;
-        int priceTag5 =2399; 
-    }
-
-*/
 
     void shopping(){
         Scanner shop = new Scanner(System.in);
