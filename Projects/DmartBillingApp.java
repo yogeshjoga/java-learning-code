@@ -59,7 +59,7 @@ public class DmartBillingApp {
     }
 
     void shirts(){
-      //  System.out.println("====================== Types of Shirts ==================="); 
+        //  System.out.println("====================== Types of Shirts ==================="); 
         String brand1 = "U.S.Polo";
         String brand2 = "PUMA";
         String brand3 = "Highlander";
@@ -76,19 +76,24 @@ public class DmartBillingApp {
         int id2 = 400025;
         int id3 = 710195;
         int id4 = 669988;
-        int id5 = 002030;
+        int id5 = 102030;
         // total price of prodcts
         Scanner quantity = new Scanner(System.in);
         int a = quantity.nextInt();
-        int totalPrice = a*priceTag1;
+        long totalPrice = a*priceTag1;
         // now printing the values
-	 System.out.println("----------------------------------------------------------");
+	    //System.out.println("----------------------------------------------------------");
 
         System.out.println(id1+"   "+brand1+"          "+a+"           "+priceTag1+"         "+totalPrice);
 
-        
+        System.out.println(id2+"   "+brand2+"              "+a+"           "+priceTag2+"         "+totalPrice);
 
-        
+        System.out.println(id3+"   "+brand3+"        "+a+"           "+priceTag3+"          "+totalPrice);
+
+        System.out.println(id4+"   "+brand4+"          "+a+"           "+priceTag4+"         "+totalPrice);
+
+        System.out.println(id5+"   "+brand5+"              "+a+"           "+priceTag5+"         "+totalPrice);
+
     }
     void pants(){
        // System.out.println("================== Types of Jens Pants ===================");
@@ -108,8 +113,6 @@ public class DmartBillingApp {
         Scanner shop = new Scanner(System.in);
 
         // shirtShopping = shop.next(), pantShopping =shop.next(),shirtQuantity = shop.next(), pantQuantity = shop.next();
-
-
     }
     public static void main(String[] args) {
         DmartBillingApp bill = new DmartBillingApp();
@@ -119,7 +122,5 @@ public class DmartBillingApp {
         bill.shirts();
         bill.pants();
      // bill.invoice();
-
-
     }
 }
