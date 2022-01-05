@@ -10,19 +10,19 @@ public class DmartBillingApp {
        String brand3 = "Highlander";
        String brand4 = "Roadstar";
        String brand5 = "Nike";
-       // product price Tag's
+       // product price Tag's for shirts
        int priceTag1 =1999;
        int priceTag2 =2999;
        int priceTag3 =999;
        int priceTag4 =1299;
        int priceTag5 =4999;
-       // product ID's
+       // product ID's for shirts
        int id1 = 102051;
        int id2 = 400052;
        int id3 = 710153;
        int id4 = 669954;
        int id5 = 102055;
-       // jeans pants brands
+       // jeans pant brands
        String brandP1 = "U.S.Polo jeans";
        String brandP2 = "PUMA jeans";
        String brandP3 = "Highlander jeans";
@@ -34,7 +34,7 @@ public class DmartBillingApp {
        int priceTagP3 =1999;
        int priceTagP4 =1399;
        int priceTagP5 =2399; 
-       // product ID's
+       // product ID's for pants
        int idP1 = 902061;
        int idP2 = 600062;
        int idP3 = 710163;
@@ -44,6 +44,7 @@ public class DmartBillingApp {
 
        ///
        int a;
+       int b;
        long totalPrice;
        static DmartBillingApp obj = new DmartBillingApp(); // static object
 
@@ -101,11 +102,11 @@ public class DmartBillingApp {
         System.out.println(idP3+"   "+brandP3+"        "+obj.a+"           "+obj.priceTagP3+"         "+obj.totalPrice);
         System.out.println(idP4+"   "+brandP4+"          "+obj.a+"           "+obj.priceTagP4+"         "+obj.totalPrice);
         System.out.println(idP5+"   "+brandP5+"              "+obj.a+"           "+obj.priceTagP5+"         "+obj.totalPrice);
-        System.out.println("-----------------------------------------------------------------------\n");
+        System.out.println("-----------------------------------------------------------------\n");
 
 
-        System.out.println("__________________________________________________________________________");
-        System.out.println("__________________________________________________________________________\n \n");
+        System.out.println("________________________________________________________________");
+        System.out.println("________________________________________________________________\n \n");
         
 
 
@@ -134,8 +135,9 @@ public class DmartBillingApp {
         System.out.println("3 : Highlander        8 : Highlander jeans");
         System.out.println("4 : Roadstar          9 : Roadstar jeans  ");
         System.out.println("5 : Nike             10 : Nike jeans      ");
-         Scanner option = new Scanner(System.in);
+         Scanner option = new Scanner(System.in), pantsOption = new Scanner(System.in);
             int shoppingProduct = option.nextInt();
+            int shoppingProductPant =pantsOption.nextInt();
         switch(shoppingProduct){
             case 1:
                 System.out.println(aa+" How many shirts you want?");
@@ -152,6 +154,8 @@ public class DmartBillingApp {
             case 5:
                 System.out.println(ee+" How many shirts you want?");
                 break;
+        }
+        switch(shoppingProductPant){
             case 6:
                 System.out.println(ff+" How many shirts you want?");
                 break;
@@ -169,8 +173,9 @@ public class DmartBillingApp {
                 break;
         }
         // total price of prodcts
-        Scanner quantity = new Scanner(System.in);
+        Scanner quantity = new Scanner(System.in),quantityPant = new Scanner(System.in);
         obj.a = quantity.nextInt();
+        obj.b = quantityPant.nextInt();
         obj.totalPrice = obj.a*obj.priceTag1;
         // now printing the values
 	    // System.out.println("----------------------------------------------------------");
@@ -182,6 +187,19 @@ public class DmartBillingApp {
         System.out.println("GST     Taxable       CGST     SGST      CESS          Total ");
         System.out.println("IND     Amount                                         Amount");
         System.out.println("------------------------------------------------------------");
+        System.out.println("              // This area is total billig addrs            \n\n");
+        System.out.println("------------------------------------------------------------");
+        System.out.println("        // total calculation of billing amount              \n");
+        System.out.println("____________________________________________________________");
+        System.out.println("____________________________________________________________\n");
+        System.out.println("<----------------Amount Received From Customer------------->");
+        System.out.println("------------------------------------------------------------");
+        
+
+
+
+    }
+    void billingPayment(){
 
     }
 
