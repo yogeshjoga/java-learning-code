@@ -40,9 +40,7 @@ public class DmartBillingApp {
        int idP3 = 710163;
        int idP4 = 369964;
        int idP5 = 502065;
-
-
-       ///
+       // extra we need input variables 
        int a;
        int b;
        long totalPrice;
@@ -91,7 +89,11 @@ public class DmartBillingApp {
         System.out.println("-----------------------------------------------------------------------");
         System.out.println(" HSN     Particulars          Qty/kgs       N/Rate      Value          ");
         System.out.println("-----------------------------------------------------------------------\n");
-        
+        System.out.println("         1 @CGST = 2.5%            2 @SGST = 2.5%           ");
+        // switch is to take inputs from user and print the values and calcuate the price tags and print it which is choosing product 
+       // switch(){
+
+      //  }
         System.out.println(id1+"   "+brand1+"                "+obj.a+"           "+obj.priceTag1+"         "+obj.totalPrice);
         System.out.println(id2+"   "+brand2+"                    "+obj.a+"           "+obj.priceTag2+"         "+obj.totalPrice);
         System.out.println(id3+"   "+brand3+"              "+obj.a+"           "+obj.priceTag3+"          "+obj.totalPrice);
@@ -103,17 +105,9 @@ public class DmartBillingApp {
         System.out.println(idP4+"   "+brandP4+"          "+obj.a+"           "+obj.priceTagP4+"         "+obj.totalPrice);
         System.out.println(idP5+"   "+brandP5+"              "+obj.a+"           "+obj.priceTagP5+"         "+obj.totalPrice);
         System.out.println("-----------------------------------------------------------------\n");
-
-
         System.out.println("________________________________________________________________");
         System.out.println("________________________________________________________________\n \n");
-        
-
-
     }
-
-
-   
 
     void products(){
         System.out.println("\n----------------------------------------------------------");
@@ -194,12 +188,9 @@ public class DmartBillingApp {
         System.out.println("____________________________________________________________\n");
         System.out.println("<----------------Amount Received From Customer------------->");
         System.out.println("------------------------------------------------------------");
-        
-
-
-
     }
     void billingPayment(){
+
 
     }
 
