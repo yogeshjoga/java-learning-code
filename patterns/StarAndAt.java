@@ -9,6 +9,7 @@ public class StarAndAt {
             }
             for(int j=1; j<=a; j++){
                 System.out.print("*");
+                if()
             }
             
             System.out.println();
