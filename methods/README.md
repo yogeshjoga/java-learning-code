@@ -138,6 +138,71 @@
         2) Static initilizer block (SIB)
         3) Static Methods
 
-        
 
+# Variables and method calling statments and conventions 
+```java
+ -----------------------------------------------------------------------------------------------------------------
+                                            static context                ||                  non-static context
+                                                                          ||
+static                                      (SIB / METHOD)                ||                  (IIB / METHOD)
+Members                                     ClassName                     ||                      Direct
+(varibles/methods)                          Direct                                              ClassName
+                                            Object Reference                                    this Keyword
+
+
+===================>
+
+
+Nonstatic                               Object Refernce                                         Direct
+Members                                                                                         this Keyword
+(varibles/methods)
+
+        
+        Rules to calling static and Non static Members
+        ==> In static context static Members we can access by using  ClassName only
+        ==> In static context NonStatic Members can access by using Object Reference only
+        ==> IN Non static context  static Members we can access by using ClassName only.
+        ==> In Non static context  Non static Members we can access by using this Keyword only.
+        
+        All the Above the rules is the Java Conventions
+```
+## Differnt b/w the static and non static members
+
+```java
+            static Members                          |                        Non static Members
+                                                    |
+ ---------------------------------------------------|----------------------------------------------------
+           Single copy                              |     Multi copys
+           They are loaded during the loading       |     Loading process of the Object
+                 processof a class.                 |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                            
+                                            
+
+```
    
