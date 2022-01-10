@@ -5,7 +5,7 @@ public class FibnocciSeries {
         int a=0,b=1,c;
         c=a+b;
         if(a==100){return 1;}
-        else {return}
+        else {return (a=b, (b=c));}
     }
     public static void main(String[] args) {
         
