@@ -397,7 +397,7 @@ To complie
 
 ```
 
-# RULES FOR LOCAL VARIABLES
+# RULES FOR LOCAL VARIABLES and Convenctions
 
   1 When we use varibales the value will be used in the program.
 
@@ -407,6 +407,7 @@ To complie
 
   4 once we declar the variable we can reinitialization the variable number of times.
 
+<img src="https://github.com/yogeshjoga/java-learning-code/blob/master/notes/Naming.convections.jpg">
 
 ```java
 
@@ -483,7 +484,9 @@ Explcit narrowing
 				output: error!
 
 ```
+# THERE ARE SOME OPEARATORS SEE THE TABLE AND UNDERSTAND 
 
+<img src="https://github.com/yogeshjoga/java-learning-code/blob/master/notes/operators.jpg">
 
 # OPERATORS 
 	operators are used to perform opeartions and we have many operators in JAVA such as 
@@ -1282,7 +1285,7 @@ OUTPUT
 
 
 # LOOPS
- 
+ <img src="https://github.com/yogeshjoga/java-learning-code/blob/master/notes/Loops.jpg">
   Wherever we need to perform the same operation again and again
   we should make of loops they reduces the size of the code and
   the readablity.
