@@ -41,6 +41,8 @@
 
 
 ```
+# Static and Non-Static memory allocations, Diagrams see the below mind mapping 
+
 
 
 ## Different wasys to create the methods
