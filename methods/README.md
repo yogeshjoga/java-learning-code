@@ -111,7 +111,7 @@
 ```
 
 # CLASS members below see the mind mapping 
-
+   <img src="https://github.com/yogeshjoga/java-learning-code/blob/master/notes/ClassMembers.png">
 
 
 
