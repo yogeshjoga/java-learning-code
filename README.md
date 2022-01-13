@@ -397,7 +397,7 @@ To complie
 
 ```
 
-# RULES FOR LOCAL VARIABLES and Convenctions
+# RULES FOR LOCAL VARIABLES and Conventions
 
   1 When we use varibales the value will be used in the program.
 
