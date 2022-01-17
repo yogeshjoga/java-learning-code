@@ -1,4 +1,8 @@
-
+// this is the basic code to Inheritance class 
+// name's for PARENT class is , Parent Class, Base Class, Super Class
+// Name's for Child Class is, Child Class, Drived Class, Sub-Class
+//*************************************************** */
+// this is the Multi Inheritance example : 
  class Dogs extends Animals{
     void germanSherphed(){
         System.out.println("Name is german sherphed");
@@ -57,7 +61,7 @@
 }
 public class Animals {
     void animals(){
-        System.out.println(" It has four leg's animal  Name as : ");
+        System.out.println("\n\n\n\n It has four leg's animal  Name as : ");
     }
 
     public static void main(String[] args) {
@@ -65,7 +69,13 @@ public class Animals {
         Cats cu = new Cats();
         Dogs do1 = new Dogs();
         do1.animals();
+        do1.germanSherphed();
+        do1.goldenRetiver();
+        do1.labrativer();
         cu.animals();
+        cu.mainCoon();
+        cu.indianCat();
+        cu.parisenCat();
         gu.animals();
         gu.indianLion();
         gu.africaLion();
