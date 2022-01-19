@@ -20,5 +20,7 @@ Class
     NOTE:
          OOP  it's paradigm which co-relates real time  scenarios into java perspective.
          In OOP we can Represented every object in the following manner.
-## QJ Object and Class Question
+
+         
+## QJ Object and Class Question1
 <img src="https://github.com/yogeshjoga/c-learning-30-days/blob/master/QjOopQuestion1.png">
