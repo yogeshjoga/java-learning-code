@@ -21,6 +21,20 @@ Class
          OOP  it's paradigm which co-relates real time  scenarios into java perspective.
          In OOP we can Represented every object in the following manner.
 
-         
+21/01/2022 online class
+
+  class and object: 
+    class : 
+  Def:class is a keyword which is used to define non primitive datatype or user defined datatype. (we can encapsulate the properties and behaviours of outer objects in the form of variables and methods respectively within the java program.) According to OOP,class is used represent the blueprint of real time objects. 
+
+  Note: In any class which representing the blueprint should not have main(String[]) according java convention. a blueprint class is known as logical entity or Business logic class. 
+  Object ID
+
+  Def:In java,objects are block of memory created during the runtime. According to oop, we can consider object as instance of a class. or mirror image of a blueprint 
+
+  note: objects are considered as real time entities and the objects of a blueprint class must be created within the class having main method called user logic class. 
+
+  According to java conventions, If any property is keep on changing for each and every object that we create, then the property must be taken as non static variable in java otherwise static variable. and if any method depends upon any one of the non static property,then the method must be non static method.
+
 ## QJ Object and Class Question1
 <img src="https://github.com/yogeshjoga/c-learning-30-days/blob/master/QjOopQuestion1.png">
