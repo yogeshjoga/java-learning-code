@@ -7,8 +7,8 @@ public class FindingChars {
         char [] enterName = name.next().toCharArray();
         char finding = values.next().charAt(0);
         int count=0;
-        for(int i=0;i<=100;i++){
-            if(finding == enterName[i]){
+        for(int i=0;i<=enterName.length;i++){
+            if(enterName[i] == finding){
                 count++;
             }
         }
@@ -16,5 +16,5 @@ public class FindingChars {
         name.close();
         values.close();
     }
-    
+
 }
