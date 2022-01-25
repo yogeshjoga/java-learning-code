@@ -8,7 +8,7 @@ int main(){
     gets(ch);
     printf("Which letter u want to find");
     scanf("%c",&a);
-    for(int i=0; i<=20; i++){
+    for(int i=0; i<=50; i++){
         if(a == ch[i]){
             c++;
         }

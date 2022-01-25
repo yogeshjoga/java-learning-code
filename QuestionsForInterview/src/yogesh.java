@@ -1,8 +1,0 @@
-import java.util.Scanner;
-public class yogesh {
-	
-	public static void main(String[] yogi) {
-		System.out.println("Hello yogesh this is the 1st code in eclips enjoy a lot !!!");
-		System.out.println("This is the my first programm in Eclips");
-	}
-}
