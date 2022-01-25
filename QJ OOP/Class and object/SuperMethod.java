@@ -5,7 +5,14 @@ public class SuperMethod {
         this.a = a;
         this.b = b;
         c=this.a+this.b;
-        System.out.println(c+" This the ");
+        System.out.println(c+" This the sueper method  at superClass");
     }
     
+}
+
+
+public class Billa extends SuperMethod{
+    Billa(){
+        
+    }
 }
