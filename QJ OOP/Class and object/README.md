@@ -38,3 +38,20 @@ Class
 
 ## QJ Object and Class Question1
 <img src="https://github.com/yogeshjoga/c-learning-30-days/blob/master/QjOopQuestion1.png">
+
+
+
+job of new oparator
+    create an object with the reference
+    load all the nsm withf defualt values
+    execute the all initializers from top to bottom order
+    calls the constructor to intialize the non static properties
+    once object is created reference is given
+
+
+
+    wap to create the bluerint of box, where in some boxes are 2-D and some are 3-D boxes create a method called as disply whichprovides the properties of the box objects. create a user logic with 3 box object wehrein 2 boxes are 2-D and another 3-D boxes and siplay their properties by calling disply behaviour.
+
+
+    WAP to create the blue print of student with the properties name 10th percentage, 12th percentage and degree percetnage. some students have completed upto 10th some upto 12th and reamaining upto degree with  a behavior display with display the properties of the student object.
+    create a user logic with 4 students objects where in 2 ompleted upto 10th and one upto 12th and reamining upto degree. Display therir behaviour also.
