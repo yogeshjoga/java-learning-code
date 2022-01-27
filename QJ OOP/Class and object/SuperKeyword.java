@@ -20,9 +20,7 @@ public class SuperKeyword {
     }
 }
 public class Billa extends SuperKeyword{
-
-
-         Billa.Billa(int a, int b){
+        Billa(int a, int b){
             int c = 0;
             super.a = a;
             super.b = b;

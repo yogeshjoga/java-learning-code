@@ -29,9 +29,9 @@ public class StudentProp {
         this.ten10thPercentage = ten10thPercentage;
         System.out.println(this.studentName+"\n"+this.rollNum+"\n"+this.ten10thPercentage+"\n");
     }
-    public static(){
+    public static void diplay(){
         System.out.println("\n\n-----------------------------------");
-        System.out.println(" 1 : Enter the Student Name ");
+        System.out.println(" 1 : Enter the Student Name "+this.);
         System.out.println(" 2 : Enter the Student Roll Number");
         System.out.println(" 3 : Enter the Student 10th Percentage ");
         System.out.println(" 4 : Enter the Student Inter Percentage");
