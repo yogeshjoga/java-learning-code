@@ -11,7 +11,4 @@ public class RectOfThe3DCube {
             ReactAngle3D areaOf3d = new ReactAngle3D(num3, num4, num5);
             inPut.close();
         }
-    
-    
-    
 }

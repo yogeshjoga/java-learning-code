@@ -7,6 +7,10 @@ public class classNameA {
         int c= a+b;
         System.out.println("\n\n\n"+c+" addition of the two numbers\n\n");
     }
+    void yogi(){
+        int c = this.cc + this.bb;
+        System.out.println(c);
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         classNameA sow1 = new classNameA();
