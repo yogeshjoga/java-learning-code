@@ -6,7 +6,7 @@ import java.util.Scanner;
 
  this is the worng code  i will make another one below 
 
- 
+
 public class ArrayTable {
     int num22;
     Random num = new Random();
@@ -49,13 +49,14 @@ public class ArrayTable{
          int num2 = sc.nextInt();
          for(int i=0; i <=num1;i++){
                 this.inNum = 1+ranNum.nextInt(num2);
-
+               // int arr[] = new int[this.inNum];
+               // only one number will store in the inNum variable so we can store the array values in the given the range.
          }
 
          sc.close();
     }
     void arrayTab(){
-         int arr[] = new int[this.inNum];
+        int arr[] = new int[this.inNum];
          for(int i=0; i<=arr.length; i++){
              System.out.println(i+"\t\t\t"+arr.length);
          }
@@ -67,3 +68,5 @@ public class ArrayTable{
         obj.arrayTab();
     }
  }
+
+
