@@ -11,7 +11,7 @@ public class BikeRider {
     double mileage;
     private double topSpeed;
     int transmission;
-    public void bike(String bikeName, double mileage,double topSpeed, int transmission){
+    public BikeRider(String bikeName, double mileage,double topSpeed, int transmission){
         this.bikeName = bikeName;
         this.mileage = mileage;
         this.transmission = transmission;
