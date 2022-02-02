@@ -10,7 +10,7 @@
         It is similar to parent child realtionship where in the properties ad behaviours of one class( super Class) is inherted to another class object (subclass oject ) with the help of extends keyword. Only non static members get inherited.
     ``java
 
-    ex :
+     ex :
         classs Vehicle {
             double topSpeed = 660.33
 
@@ -24,7 +24,7 @@
 
 
 
-    example2:
+     example2:
 
         class A{
             public static void main (String[] args){
