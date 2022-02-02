@@ -5,7 +5,7 @@ public class Employee {
     String empName , empRoleInComp;
     int empId;
     private int sal;
-    Employee(String empName , String empRoleInComp, int emId, int sal){
+    Employee(String empName , String empRoleInComp, int empId, int sal){
         this.empName =  empName;
         this.empRoleInComp = empRoleInComp;
         this.empId = empId;
@@ -22,8 +22,8 @@ public class Employee {
         }
         else System.out.println("Enter the proper amount to the employee salary below is the  10000");
     }
-    void getSal(){
-        this.sal;
+     int getSal(){
+        return this.sal;
     }
     void display(){
         System.out.println("The salary of the current employee is : "+this.sal);
