@@ -53,5 +53,4 @@
 
     ###  NTOE : Every class extends automatically object class if a developer do not extends the class to another class, hence Object class is called as supermost class fo all the classes in java.
 
-
     HENCE : Every progam in java exhibit inheritance which is mandatory eventhough the ddeveloper forgets to add extends keyword
