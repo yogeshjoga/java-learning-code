@@ -8,6 +8,7 @@ public class TightlyEncapUser extends TightlyEncap {
            String carBrand = sc.next();
            int numWheels = sc.nextInt();
            double numSeats = sc.nextDouble();
+           sc.close();
            obj.setCarName(carBrand);
            obj.getCarName();
            obj.setNumOfWheels(numWheels);
@@ -15,5 +16,6 @@ public class TightlyEncapUser extends TightlyEncap {
            obj.setNumOfSeats(numSeats);
            obj.getNumOfSeats();
            obj.display();
+           
        }
 }
