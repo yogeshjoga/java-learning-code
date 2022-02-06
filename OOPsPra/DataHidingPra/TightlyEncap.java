@@ -31,6 +31,4 @@ public class TightlyEncap {
     void display(){
         System.out.println("\n"+carName+"\n"+numOfWheels+"\n"+numOfWheels);
     }
-
-
 }
