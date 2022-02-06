@@ -1,5 +1,5 @@
-package DataHiding;
-public class DataHiding {
+// corruputed file some time this type of file will grenrated so dont worry yogi remember it okay
+public class DataManuHid {
     private String mobileName;
     private double mobilePrice;
     private int mobileQnty;
@@ -12,7 +12,7 @@ public class DataHiding {
         this.mobileName = mobileName;
     }
 
-    public double getMobi3lePrice() {
+    public double getMobilePrice() {
         return this.mobilePrice;
     }
 
@@ -27,5 +27,10 @@ public class DataHiding {
     public void setMobileQnty(int mobileQnty) {
         this.mobileQnty = mobileQnty;
     }
+    void display(){
+        System.out.println("\n"+mobileName+"\n"+mobilePrice+"\n"+mobileQnty);
+    }
 
 }
+
+
