@@ -162,8 +162,18 @@ example is the
  StringTokenizer
     Specialy desgned class for tokenization activity
      java util pack
+
+     // there are 3 keywords in srting tokenizers
+     1 StringTokenizer
+     2 hasMoreTokens()
+     3 nectToken()
+
+
+     
      ex :
         StringTokenizer st = new  StringTokenizer("9-2-2022","-")  // date formate is the Target value and ifine is the Regular expression or pattern 
-
+        while(st.hasMoreTokens()){
+            System.out.println(st.nextToken());
+        }
 
    ```
