@@ -117,7 +117,9 @@ example is the
      // undrstand the table yogi and remeber it okay  index positions are the  ["abaabaaab"]  finding the places 
      // pattern matching
 
-        Pattern class split class method ()
+     Pattern class split class method ()
+
+
         Pattern p = Pattern.compile("\\s");
         String[] s = p.spilt("yogesh joga bike rider");
           for(String s1 : s){
@@ -141,7 +143,27 @@ example is the
             com // dot . are removed and taken to next ling y becoz we will take the println 
 
 
+    String class spilt method is also work 
 
+
+    String s = "yogesh joga bike rider";
+    String [] s1 = s.fpilt();
+    for(String s2:s1){
+        System.out.println(s2);
+    }
+    // answers  \\s
+    yogesh
+    joga
+    bike
+    rider
+        
+
+
+ StringTokenizer
+    Specialy desgned class for tokenization activity
+     java util pack
+     ex :
+        StringTokenizer st = new  StringTokenizer("9-2-2022","-")  // date formate is the Target value and ifine is the Regular expression or pattern 
 
 
    ```
