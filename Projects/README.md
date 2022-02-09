@@ -9,6 +9,9 @@
   this is my self motivation how is it 
   no can motivated to me so thats why motivated my self
   thats enough 
+
+
+  
   now time is 1:57 am feb/10/2022
 
   enjoy a lot 
