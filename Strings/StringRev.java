@@ -67,8 +67,6 @@ public class StringRev {
 
     /**
      * 
-     * @param args
-     * @throws Exception
      * write a programming to remover the duplicate char's presented in the 
      * given string 
      *  1st quetion is using indexOf method to solve this 
@@ -91,8 +89,6 @@ public class StringRev {
     }
     /**
      * 
-     * @param args
-     * @throws Exception
      * with out using indexOf method to write a programming to remvoe the duplicate chars
      * in the string values
      * thats it
@@ -104,8 +100,6 @@ public class StringRev {
     
     /**
      * 
-     * @param args
-     * @throws Exception
      *  write a programm to add all the digits preseted in the given mixed string
      *  in integer formate only?
      * 
