@@ -86,6 +86,12 @@
      finally{
          clear the code // after try block before return statment it will overcome and excuted
      }
-    
+
+# throw and throws keywords 
+   the throw keyword is the user defined exception
+    we can create the new object from user defined object to raise the excetion in run  time
+
+    throws is the compile time exception 
+    by using throws exception
 
     
