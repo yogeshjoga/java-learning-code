@@ -94,4 +94,6 @@
     throws is the compile time exception 
     by using throws exception
 
+     how to create the user defined exception by using a throw keyword
+
     
