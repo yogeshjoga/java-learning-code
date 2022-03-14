@@ -95,18 +95,23 @@ it is very importent
 1 Extending a Thread Class
 ```java
         class MyThread extends Thread{ //Define a Thread
-            public static void main(String[] args){
+            public static void run{
                 for(int i=0; i<=100; i++){ // this is the JOB OF a Thread
                     System.out.println("child Thread");
                     // this for loop is excuted by child thread
                 }
             }
         }
-
+/*
+* the first code is child code to extends thread class
+* the second code is having main method and main thread 
+* we can use excuted by using main thread and flow with the child thread.
+* 
+*/
         //start the define thread
         class ThreadDemo{
              public static void main(String[] args){ // main thread starts
-                 MYThread t = new myThread();// thread instation
+                 MyThread t = new MyThread();// thread instation
                  t.start(); // 2 threads are main and child Thread
                 for(int i=0; i<=100; i++){ // this is the JOB OF a Thread
                     System.out.println("Main Thread");
