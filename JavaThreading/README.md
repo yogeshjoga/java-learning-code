@@ -119,6 +119,11 @@ it is very importent
                 }    
             }
         }
+
+        Today my hear❤ was broken💔💔💔 so sad day to me fu*cing 
+          but i can't leave you my dear darling java.. i am with you 
+          your are also with me 
+           with out you (java)  im useless
 ```
 
 
