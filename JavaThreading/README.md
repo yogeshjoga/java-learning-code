@@ -125,6 +125,83 @@ it is very importent
           your are also with me 
            with out you (java)  im useless
 ```
+# How to develop the threads in java 
+  the following are various possible outputs 
+  main thread 10 times
+  child thread 10 times
+
+  // child thread 
+
+   child thread 10 times
+   main thread 10 times
+
+   case-2 
+      
+       Differnt b/w the t.start() & t.run()
+       In the case a new thread will be created which is responceable to for the excution of run method
+        but in the case t.run() a new thread wont be created
+        and the run() will be excuted just like a normal method called by main thread.
+        Hence 
+            In the above programm if we replace t.start() with t.run() than the output is child thread child thread 10 times followed by main thread main thread 10 times
+            this total output producted by only main thread.
+
+    
+```java
+
+   syntex of the start() with run()
+    start(){
+        register this thread with thread scheduler
+        perform all orther mandotry activities
+        Invoke run() method
+    }
+
+   // in thread class having overloading methods 
+      // to invoke to main thread it will print only no arg method only prints
+      // we can call expilcitly in argument methods
+      for example is:
+        class MyThread extends Thread{
+            public void run(){
+                System.out.println("no arg method");
+            }
+            public void run(int a){
+                System.out.println("arg method");
+            }
+        }
+
+    class ThreadMY{
+        p s v m(s[]a{
+            MyThread t = new MyThread();
+        })
+    }
+
+
+if we are not override then thread class run method will be excuted which as empty implementation.
+
+NOTE:
+It is highly recommended to override the run method ortherwise don't don't go for the multithreading concepts.
+    if i am not
+overriding start() method
+
+
+ class MyThread extends Thread{
+     public void start(){
+         sopln("start method");
+     }
+     public void run(){
+         sopln("Run Method")
+     }
+ }
+
+class test{
+    psvm(s[]a){
+        MyThread t = new MyThread();
+        t.start();
+        sopln("main method")
+    }
+}
+o/p start method main method produced by only main thread
+```
+
 
 
 
