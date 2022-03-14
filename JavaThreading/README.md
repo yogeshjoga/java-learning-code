@@ -179,8 +179,10 @@ if we are not override then thread class run method will be excuted which as emp
 
 NOTE:
 It is highly recommended to override the run method ortherwise don't don't go for the multithreading concepts.
-    if i am not
-overriding start() method
+    if i am not.
+
+overriding start() method then our start method will be excuted 
+just like a normal method call and new thread won't be created.
 
 
  class MyThread extends Thread{
@@ -205,9 +207,93 @@ o/p start method main method produced by only main thread
 
 
 
+# Base life cycle of the java multithreading
+  MyThread t = new MyThread(); // new/ born stat
+     |
+     | t.start();
+     |
+  Ready/Runnable
+     |
+     | if Thread Shedular allow process
+     |
+     |
+ Running
+     |
+     | if run()
+     | method completed
+     |
+  Dead state
+
+
+run time exception if we start the thread once after we will try to restart the thread it will goes to the run time exception.
+
+ IllegalThreadException.
+ 
+
+ # Defining a Thread by implementing Runnabale intraface()
+  
+   Runnable
+      |     |
+      |     |
+      |     MyRunnable
+      |     2nd approch
+    Thread
+      |
+      |
+      |
+    myThread
+
+1st approach
+
+
+```java
+        class MyRunnable implements Runnable{
+            public void run(){
+                for(int i=0; i<=100;i++){
+                    sopln("child Thread");
+                }
+            }
+        }
+
+ class ThreadDemo{
+             public static void main(String[] args){ // main thread starts
+             MyRunnable r = new MyRunnable(); // it is the implemented from the Runnable intraface
+                 Thread t = new Thread(r);// thread instation
+                 t.start(); // 2 threads are main and child Thread
+                for(int i=0; i<=100; i++){ // this is the JOB OF a Thread
+                    System.out.println("Main Thread");
+                    // this for loop is excuted by main thread only
+                }    
+            }
+        }
+        
+```
+
+# Thread class constructors
+   
     
 
+ Thread t = new Thread()  
 
-         
+ Thread t = new Thread(Runnable r)  
+
+ Thread t = new Thread(String name )  
+
+ Thread t = new Thread(Runnable r, String name)  
+
+ Thread t = new Thread(ThreadGroup 9, String name)  
+
+ Thread t = new Thread(ThradGroup 9 , Runnable r)  
+
+
+
+Thread.currentThread()
+getName();
+
+
+
+# Thread Priorities
+   
+
 
    
