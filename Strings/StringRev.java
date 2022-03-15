@@ -9,18 +9,17 @@ public class StringRev {
              String s1 ="";
               System.out.println("\n Enter a String name to revers ");
                 String s = StringRev.sc.nextLine();
-                
+
               for(int i=0;i<s.length();i++){
                   s1 = s.charAt(i)+s1;
               }
         System.out.println(s+" it is reversed to the  "+s1);
-        // for palandrome String to find 
+        // for palandrome String to find
         if(s.equals(s1)){
             System.out.println(s+" it is the paldrome string "+s1);
         }
             else{
                 System.out.println(s+" it is not a paldrome string "+s1);
-                
         }
     }
 
@@ -48,7 +47,7 @@ public class StringRev {
      * @throws Exception
      * 1st take input string from end user r user
      * 2nd take a input from end user to find the char's in  string
-     * question is the 
+     * question is the
      * write a programming to finding indexOf method values fo a given char in all its
      * occeraneces fo a given string
      */
@@ -66,12 +65,12 @@ public class StringRev {
 
 
     /**
-     * 
-     * write a programming to remover the duplicate char's presented in the 
-     * given string 
-     *  1st quetion is using indexOf method to solve this 
-     *  2nd question is without using indexOf method to slove this 
-     * 
+     *
+     * write a programming to remover the duplicate char's presented in the
+     * given string
+     *  1st quetion is using indexOf method to solve this
+     *  2nd question is without using indexOf method to slove this
+     *
      */
     // by using indexOf method to remove the chars presented in string
     public static void remCharIndex(){
@@ -88,7 +87,7 @@ public class StringRev {
 
     }
     /**
-     * 
+     *
      * with out using indexOf method to write a programming to remvoe the duplicate chars
      * in the string values
      * thats it
@@ -97,28 +96,44 @@ public class StringRev {
     public static void arrayRemoveDupliacte(){
 
     }
-    
     /**
-     * 
+     *
      *  write a programm to add all the digits preseted in the given mixed string
      *  in integer formate only?
-     * 
+     *
      */
     public static void stringsToIntegers(){
         System.out.println(" Enter a string with number to add the all numric values from given string ");
         String s = StringRev.sc.nextLine();
         int add = 0;
         for(int i=0; i<s.length();i++){
-            // we can use wapper classes 
             if(Character.isDigit(s.charAt(i))){
             add = add+Character.getNumericValue(s.charAt(i));
             }
-          //  System.out.println(add);
         }
         System.out.println(s+" the string containing these numbers "+add);
     }
-
-
+    /**
+     * we can use parseInt method
+     * the flow of the programming
+     * is 
+     * variables 
+     * donkey logic
+     * itarate 
+     * lastly apply the loops
+     */
+    public static void stringRev(){
+        System.out.println("Enter the multi String");
+        String s = StringRev.sc.nextLine();
+        int add =0;
+        for(int i=0; i<s.length();i++){
+            char ch = s.charAt(i);
+            if(ch>='0' && ch<='9'){
+                add = add + Integer.parseInt(ch+"");
+            }
+        }
+        System.out.println(add);
+    }
 
 
 
@@ -128,8 +143,8 @@ public class StringRev {
        // stringFindingVowels();
       // indexOfFunction();
       // remCharIndex();
-      stringsToIntegers();
+      //stringsToIntegers();
+      stringRev();
     }
-    
 
 }
