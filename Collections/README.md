@@ -39,4 +39,9 @@ collection a group of indivial objects in single entity is called collection.
 
 Collection FrameWork is the group of classes and intrafaces is called collection framework.
 
+# there are 9 key intrafaces of collection framework
+  1 collection (I)
+    
+  2 
+
 
