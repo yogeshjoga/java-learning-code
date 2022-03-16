@@ -139,11 +139,11 @@ public class StringRev {
 
     // user logic of the main method
     public static void main(String[] args) throws Exception {
-       // stringRevers();
-       // stringFindingVowels();
-      // indexOfFunction();
-      // remCharIndex();
-      //stringsToIntegers();
+      stringRevers();
+      stringFindingVowels();
+      indexOfFunction();
+      remCharIndex();
+      stringsToIntegers();
       stringRev();
     }
 
