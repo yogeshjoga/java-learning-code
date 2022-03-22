@@ -14,7 +14,7 @@ public class DataHideUser{
         // mobile quantity
         System.out.println("\nEnter the Mobile Quantity : ");
         int mobQntys = sc.nextInt();
-        // passing the values in the 
+        // passing the values in the
         DataManuHid obj =new DataManuHid();
         obj.setMobileName(mobName);
         obj.getMobileName();
