@@ -1,0 +1,412 @@
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+1	 Basics of JAVA ( completed)															
+																
+2	"Class, Object, and Types of classes (Completed)"															
+																1. Basics of Java
+3	Packages in Java (completed)															Chapter 1 contains the basic introduction to the Java language such as
+																? What is Java?
+4	Data Types in Java (completed)															? History and Features of Java
+																Java Tutorials
+5	"Variables, constants, and literals (completed)"															Java Introduction +
+																Basics of Java +
+6	Methods in Java (completed)															Java Class and Object +
+																Java Data types and Variables +
+7	Constructor in Java (completed)															Java Operators +
+																+
+8	Modifiers in java (completed)															"Decision Making, Branching,"
+																Looping
+9	Static keyword (Completed)															Java Packages +
+																Java Methods +
+10	Final keyword (completed)															Java Constructor +
+																Java Modifiers +
+11	Inner Class in Java (completed)															Blocks in Java +
+																Java Static and Final Keywords +
+12	Super and This keywords (completed)															Inner Classes in Java +
+																OOPs Concepts in Java +
+13	OOPs concepts (compelted)															Java Encapsulation +
+																Inheritance in Java +
+14	Encapsulation (compelted)															Java Super and This keywords +
+																Java Overloading +
+15	Inheritance (completed)															Java Overriding +
+																Java Abstraction +
+16	Polymorphism (completed)															Java Polymorphism +
+																? C++ vs Java
+17	Abstraction (completed)															? Hello Java Program
+																? Internal How to set the path?
+18	Gargabe collection															"? JDK, JRE, and JVM (Java Virtual Machine)"
+																? JVM Memory Management
+19	Input Output Stream															? Internal details of JVM
+																"? Unicode System, Operators, Keywords, and Control Statements like if-else,"
+20	Collections Framework															"switch, For loop, while loop, etc."
+																
+21	Serialization															
+																
+22	Exception Handling in java															"2. Class, Object, and Types of classes"
+																Chapter 2 deals with the most important and core concepts of Java. They
+23	Java Annotations (completed)															are:
+																? Naming convention of Java
+24	Java arrays ( completed)															"? Classes, Objects, and Features. It explains how to declare a class, how to"
+																create an object in Java.
+25	"String, String Buffer, String Builder (completed)"															? Object declaration and initialization
+																? Life cycle of an object
+26	Reflection in java															? Anonymous object in Java
+																
+27	 Java Thread															
+																3. Packages in Java
+28	JDBC															"Chapter 3 deals with Packages in Java. Under this chapter, we will learn the"
+																following topics.
+29	Agile															? How to declare package in a company project
+																? Package naming conventions
+30	Design Patterns															? Sub packages
+																"? Types of packages such as user-defined packages, built-in packages"
+31	Database sql???															? Importing packages in Java
+																
+																
+																
+																4. Data types in Java
+																This chapter deals with the following topics in Java.
+																? Data types in Java
+																? Primitive data types
+																? Non-primitive data types
+																"? Memory allocation of primitive and non-primitive data types, etc. "
+																
+																
+																"5. Variables, Constants, and Literals"
+																"Chapter 5 discusses three topic variables, constants, and literals. You will"
+																learn the following subtopics in this chapter.
+																? Variable declaration & initialization
+																Class and Objects in Java with Realtime Example
+																Packages in Java with Example Programs
+																Data types in Java
+																? Naming convention
+																"? Types of variables such as local variables, instance variables, and static"
+																variables
+																? Scope and memory allocation of variables.
+																
+																
+																
+																6. Methods in Java
+																? Methods in Java
+																? Use of method in Java
+																"? Method declaration, method signature"
+																"? Types of methods in Java: predefined method, user-defined methods:"
+																"instance method, static method"
+																? Calling of method
+																? Java main method
+																? Return type in Java.
+																
+																
+																
+																7. Constructor in Java
+																"In this chapter, you will familiar with topics like:"
+																? What is Constructor in Java?
+																? Types of constructors: Default and Parameterized constructors
+																? Java constructor overloading
+																? Constructor chaining in java
+																? Copy constructor in Java
+																
+																
+																
+																8. Modifiers in Java
+																This chapter deals with topics like
+																? What is Access modifier and Non-access modifier in Java?
+																"? Types of access modifiers like private, default, protected, and public"
+																"? Types of Non-access modifiers like abstract, final, native, static, Strictfp,"
+																"synchronized modifier, transient, volatile."
+																
+																
+																
+																9. Static Keyword
+																This chapter deals with the following important topics.
+																? What is Static keyword?
+																Variables in Java | Types of Variables
+																Java Methods | Declaration & Method Signature
+																? Static variable
+																? Static method
+																"? Static block, Instance block"
+																? Static Nested Class in Java
+																"? Difference between static variable and instance variable, static method"
+																"and instance method, static block, and instance block."
+																
+																
+																
+																10. Final Keyword
+																"Under this chapter, you will learn three important topics:"
+																? Final keyword
+																? Final variable
+																? Final method
+																? Final class.
+																
+																
+																
+																11. Inner Class in Java
+																This chapter deals with the following topics. They are:
+																"? What is Inner class in Java?, Properties of inner class, Instantiating inner"
+																class.
+																"? Types of inner class in Java: Normal inner class, Method local inner class,"
+																"Anonymous inner class, and Static nested class."
+																
+																
+																12. Super and this Keyword
+																This chapter can be partitioned into two sections: Super and This keyword.
+																The first section discusses with
+																? Super keyword
+																? Calling of superclass instance variable
+																? Superclass constructor
+																? Superclass method.
+																The second section deals with
+																? This keyword
+																"? Calling of current class constructor, and method."
+																
+																
+																
+																13. OOPs concepts
+																"In this chapter, you will learn the most important topic Object-oriented"
+																"programming system (OOPs). In the OOPs concept, you will learn class,"
+																"object, encapsulation, inheritance, polymorphism, and abstraction. All topics"
+																are very important for interview purposes.
+																
+																
+																
+																14. Encapsulation
+																This chapter deals with the following topics in Java.
+																? Encapsulation in Java
+																? How to achieve Encapsulation
+																? Data hiding
+																? Tightly encapsulated class
+																? Getter and setter method in Java
+																? Naming convention of getter and setter method
+																
+																
+																
+																15. Inheritance
+																This chapter deals with
+																? Inheritance in Java
+																? Is-A Relationship
+																? Aggregation and Composition(HAS-A)
+																"? Types of inheritance:  Single level, Multilevel, Hierarchical, Multiple, and"
+																Hybrid inheritance.
+																
+																
+																
+																16. Polymorphism
+																This chapter deals with
+																"? Polymorphism in Java,"
+																? Types of polymorphism: Compile-time polymorphism and Run-time
+																polymorphism
+																? Static and Dynamic Binding
+																? Method overloading
+																? Method overriding
+																"? Rules of method overloading and method overriding, various example"
+																programs related to rules of overloading and overriding.
+																? Covariant Return type
+																
+																
+																
+																17. Abstraction
+																"In this chapter, you will familiarize with the most important topics in Java."
+																? Abstraction in Java
+																? Abstract class
+																? Abstract method
+																? Interface in Java
+																"? Nested interface, rules, and example programs."
+																
+																
+																
+																
+																18. Garbage Collection
+																This chapter deals with garbage collection in Java.
+																
+																
+																19. Input Output Stream
+																"In this chapter, you will learn topics like"
+																"? FileOutputStream, FileInputStream"
+																"? BufferedOutputStream, BufferedInputStream"
+																? SequenceInputStream
+																"? ByteArrayOutputStream, ByteArrayInputStream"
+																"? DataOutputStream, DataInputStream"
+																"? Java FilterOutputStream, Java FilterInputStream"
+																"? Java ObjectStream, Java ObjectStreamField"
+																? Console
+																"? FilePermissionWriter, Reader, FileWriter, FileReader"
+																"? BufferedWriter, BufferedReader"
+																"? CharArrayReader, CharArrayWriter"
+																"? PrintStream, PrintWriter"
+																"? OutputStreamWriter, InputStreamReader"
+																"? PushbackInputStream, PushbackReader"
+																"? StringWriter, StringReader"
+																"? PipedWriter, PipedReader"
+																"? FilterWriter, FilterReader, File FileDescriptor, RandomAccessFile, and "
+																java.util.Scanner.
+																
+																
+																
+																
+																20. Collections Framework
+																This chapter is one of the most favorite chapters of the interviewer. It deals
+																with the following important topics like
+																? What is Collections Framework?
+																"? List, Set, SortedSet, Queue, Deque, Map, Iterator, ListIterator, and"
+																Enumeration.
+																"? ArrayList, LinkedList, HashSet, LinkedHashSet, TreeSet, ArrayDeque,"
+																"PriorityDeque, EnumSet, AbstractCollection, AbstractList, AbstractQueue,"
+																"AbstractSet, and AbstractSequentialList."
+																"? Map, Map Entry, SortedMap, and NavigableMap"
+																"? HashMap, LinkedHashMap, TreeMap, IdentityHashMap, WeakHashMap, and"
+																EnumMap.
+																"? Comparator, RandomAccess interfaces as well as Observable class."
+																
+																
+																
+																
+																
+																21. Serialization
+																"This chapter deals with Serialization, Deserialization, and Java transient"
+																keyword.
+																
+																
+																
+																
+																22. Exception Handling in Java
+																This chapter is very important for any Java technical test or Java technical
+																"interview. In this chapter, you will familiar with"
+																? Exception Handling in Java
+																? Try-catch block
+																? Multiple Catch Block
+																? Nested try block
+																? Finally block
+																? Throw Keyword
+																? Throws Keyword
+																"? Throw vs Throws, Final vs Finally vs Finalize"
+																? Exception Handling with Method Overriding Java Custom Exceptions
+																
+																
+																
+																
+																
+																23. Java Annotations
+																"This chapter deals with Java annotations, Built-In Java annotations like @Override, @SuppressWarnings, @Deprecated, @Target, @Retention,"
+																"@Inherited, @Documented, Java custom annotations, and types of"
+																annotations.
+																
+																
+																
+																
+																24. Reflection in Java
+																? Reflection API
+																? NewInstance() & Determining the class object
+																"? Javap tool, Creating javap tool"
+																? Creating applet viewer
+																? Accessing private method from outside the class
+																
+																
+																
+																
+																25. Java Array 
+																This chapter deals with
+																? Java Array
+																"? Types of array: single dimensional array, multidimensional array,"
+																"declaration, instantiation, and initialization of Java array"
+																? Passing array to a method
+																? Anonymous array in Java
+																? Cloning an array in Java
+																
+																
+																
+																
+																"26. String, String Buffer, String Builder"
+																This is the most important chapter in the whole core java. It will deal with
+																basically three topics such as
+																"? String,"
+																? Immutable String
+																"? String Comparision, String concatenation"
+																? Substring
+																? StringBuffer class
+																? StringBuilder class
+																? toString method
+																? StringTokenizer class
+																
+																
+																
+																
+																
+																27. Java Thread
+																? Java multithreading
+																? Multithreading life cycle of a thread creating
+																? Thread scheduler
+																"? Sleeping a thread, Start a thread twice"
+																? Calling run() method
+																? Joining a thread
+																? Naming a thread
+																"? Thread priority,"
+																? Daemon thread
+																? Thread pool
+																? Thread group
+																? Shutdownhook
+																"? Java Synchronization: synchronized method, synchronized block, static"
+																synchronization
+																? Deadlock
+																? Inter-thread Communication
+																? Interrupting Thread
+																
+																
+																
+																28. JDBC 
+																This chapter deals with
+																? JDBC Drivers
+																? Steps to connect to Database
+																? Connectivity with Oracle
+																? Connectivity with MySQL
+																? Connectivity with Access without DSN
+																? DriverManager
+																"? Types of JDBC statements: Statement, Prepared statement, Callable"
+																statement
+																"? Database Metadata, Resultset Metadata"
+																"? ResultSet, types of ResultSet,"
+																"? Storing image, Retrieving image"
+																"? Storing file, Retrieving file, Stored procedures, and functions"
+																? Transaction Management
+																? Batch Processing
+																"? JDBC New Features, Mini Project, and interview questions."
+																
+																
+																
+																
+																29. Agile 
+																"In this chapter, you will familiar with"
+																? Agile model
+																"? Advantages, and Disadvantages of Agile model"
+																? Agile versus Waterfall method
+																"? Important terminology: Scrum, Scrum Master, Flow of Agile"
+																"Implementation, Sprint, and Burn down Charts."
+																
+																
+																
+																30. Design Pattern
+																"In design pattern chapter, you will learn"
+																? Singleton Object
+																? Singleton design pattern with Serialization
+																
+																Next ?
+																? Factory Pattern
+																? Abstract Factory.
+																
+																
+																
+																
+																31. Database
+																Hope that this core java syllabus will help you to know about important core
+																java topics. All of these topics are very important for technical tests and
+																interviews.
+																If you follow and study these topics nicely then you can crack any java
+																technical interview and technical test in 2021.
+																Thank

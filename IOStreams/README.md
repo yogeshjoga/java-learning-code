@@ -97,5 +97,5 @@ FileReader Class:
                   newLine(); // this is extra in fileWriter to compar
 
 ```java
-        
+       
 ```
