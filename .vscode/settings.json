@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "patterns",
         "increment",
         "arrays",
-        "patterns"
+        "JDBC/Abstraction"
     ],
     "java.completion.enabled": false,
     "java.debug.settings.enableRunDebugCodeLens": false,

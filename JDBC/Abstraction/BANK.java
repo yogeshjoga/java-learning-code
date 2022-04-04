@@ -117,6 +117,8 @@ public class BANK {
                      pw.println("Total Blance Amount in your account--: "+ obj.getTotalAmt());
                      pw.println(obj.getUserAddr());
                      pw.println("THANK YOU...");
+                     pw.flush();
+                     pw.close();
                     }
                     catch(FileNotFoundException e){
                         System.out.println("check the file and file path it may be not have!");
@@ -124,7 +126,6 @@ public class BANK {
                     finally{
                         System.out.println("Success...");
                     }
-
                 }
                 case 2 :{
                     System.out.println("WELCOME THE YOGI BANKING SERVICES");
@@ -168,7 +169,7 @@ public class BANK {
         //     System.out.println("========Your current Bank Blance=======");
             
         // }
-
+         
     }
     public ATM getBankMethod(){
         ATM obj1 = new BankBackEnd();

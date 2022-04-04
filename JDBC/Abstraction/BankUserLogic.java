@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.lang.Throwable.*;
+import java.lang.Throwable;
 
 public class BankUserLogic extends BANK {
     public static void main(String[] args)throws Exception {
