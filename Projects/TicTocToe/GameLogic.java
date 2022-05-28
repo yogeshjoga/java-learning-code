@@ -1,43 +1,67 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class GameLogic {
     char square[]= {'0','1','2','3','4','5','6','7','8','9' };
-    public static Scanner sc = new Scanner(System.in);
+    public Scanner sc = new Scanner(System.in);
     int player = 1;
     int player22 = 2;
     int i;
     int choice;
     char mark;
     String playerComputer = "Computer";
+   // int ranDom = getRandom(9);
 
 
+    
    public int player(){
        return 0;
 
-   }
+    }
 
 
    public int computer(){
        return 0;
-   }
+    }
+
+    public void computerMove() {
+        Random num = new Random();
+        int num1 = num.nextInt(1, 9);
+        System.out.println(num1);
+    }
 
     public int eassy(){  
 
         System.out.println("Enter your name!");
-        String name = GameLogic.sc.next();
+        String name = sc.next();
+
          do {
             gameBoard();
-         //  player = (player % player22 == 1) ? 1 : 2;
-            // if(player = player % player22 == 1){
-            //     System.out.println(name);
-            // }
-            // else{
-            //     System.out.println(playerComputer);
-            // }
+          //  player = (player % player22 == 1) ? 1: 2;
+            if(player % player22 == 1){
+                player = 1;
+                System.out.println(name);
+            }
+            else{
+                player = 2;
+                System.out.println(playerComputer);
+            }
 
             System.out.println("======= Player " + player + " Enter your choice ==========");
-            choice = GameLogic.sc.nextInt();
-            mark = (player == 1) ? 'X' : 'O';
+
+
+            //choice = GameLogic.sc.nextInt();
+          //  mark = (player == 1) ? 'X' : 'O';
+
+            if(player == 1){
+                choice = sc.nextInt();
+                System.out.println(mark = 'X');
+            }
+            else{
+                computerMove();
+                System.out.println(mark = 'O');
+                
+            }
 
             if (choice == 1 && square[1] == '1')
                 square[1] = mark;
@@ -67,10 +91,24 @@ public class GameLogic {
         gameBoard();
 
         if (i == 1) {
-            System.out.printf("==>Playr " + --player + " won you got star ");
-
-        } else {
+            System.out.printf("==>Player " + --player + " won you got star ");
+            System.out.println("\n\n\nMain Menu! Press enter to continue");
+            try {
+                System.in.read();
+            } 
+            catch (Exception e) {
+            }
+            outputLogic();
+        }
+         else {
             System.out.println("==>Game is Draw");
+            System.out.println("\n\n\nMain Menu! Press enter to continue");
+            try {
+                System.in.read();
+            } 
+            catch (Exception e) {
+            }
+            outputLogic();
         }
         return 0;
     }
@@ -88,6 +126,8 @@ public class GameLogic {
     }
 
 
+    
+
     /**
      * fun with your friends
      * Happy coding 
@@ -95,13 +135,16 @@ public class GameLogic {
      * @return
      */
 
+
+
+
     public int friendGame(){
         do {
             gameBoard();
             player = (player % player22 == 1) ? 1 : 2;
 
             System.out.println("======= Player " + player + " Enter your choice ==========");
-            choice = GameLogic.sc.nextInt();
+            choice = sc.nextInt();
             mark = (player == 1) ? 'X' : 'O';
 
             if (choice == 1 && square[1] == '1')
@@ -132,10 +175,23 @@ public class GameLogic {
         gameBoard();
 
         if (i == 1) {
-            System.out.printf("==>Playr " + --player + " won you got star ");
-
+            System.out.printf("==>Playr " + --player + " won you got star");
+            System.out.println("\n\n\nMain Menu! Press enter to continue");
+            try {
+                System.in.read();
+            } 
+            catch (Exception e) {
+            }
+            outputLogic();
         } else {
             System.out.println("==>Game is Draw");
+            System.out.println("\n\n\nMain Menu! Press enter to continue");
+            try {
+                System.in.read();
+            } 
+            catch (Exception e) {
+            }
+            outputLogic();
         }
         return 0;
     }
@@ -164,7 +220,6 @@ public class GameLogic {
             return 0;
         else
             return -1;
-
     }
 
    
@@ -175,7 +230,7 @@ public class GameLogic {
 
     public void gameBoard(){
         clearScreen();
-         System.out.println("\n\n\t\t =========Tic Tac Toe by YOGESH JOGA=========\n");
+         System.out.println("\n ========= Tic Tac Toe by YOGESH JOGA =========");
          System.out.println("Player1 (X) - Player2 (0) \n");
          System.out.println("        |       |       ");
          System.out.println("    " + square[1] + "   |  " + square[2] + "    |   " + square[3] + "  ");
@@ -188,11 +243,15 @@ public class GameLogic {
          System.out.println("        |       |        ");
     }
     
+
+
     public void clearScreen() {
         System.out.print("\033[H\033[2J");
         System.out.flush();
 
     }
+
+
 
     public void outputLogic(){
         GameLogic obj = new GameLogic();
@@ -201,15 +260,17 @@ public class GameLogic {
         System.out.println("======= WELCOME TO YOGESH TIC TOC TOE GAME =======\n");
         System.out.println("== YOU HAVE SOME OPTIONS PLEASE SELECT GAME MODE ==\n");
         System.out.println(" ===> 1) Eassy Game mode \n ===> 2) Medium Game Mode \n ===> 3) Hard Game Mode \n ===> 4) Play With your Friend \n ===> 5) Retrun to Main Menu");
-        int option = GameLogic.sc.nextInt();
+        int option = sc.nextInt();
         switch(option){
             case 1 : obj.eassy();
+            break;
             case 2 : obj.medium();
+            break;
             case 3 : obj.hard();
+            break;
             case 4 : obj.friendGame();
+            break;
             case 5 : obj.outputLogic();
         }
-    }
-    
-    
+    } 
 }
