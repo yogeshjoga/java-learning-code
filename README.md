@@ -1653,7 +1653,89 @@ OUTPUT
 
       If a compiler could not find the suitable args then he thought the CTE.
       
-#
+# Arrays 
+
+
+
+
+
+
+
+
+
+# Strings 
+  what is string ?
+    string is a java object, it is a sequence of chars inside double quotes it is called string object. Stirng is 
+    immutable object.
+      
+      String concepts 
+         
+         String String, Buffer, String Builder
+
+         why is string is immutable object.
+           A string internally implemented in hasmap map interface it acts like map key vlaue. It won't allows the 
+           duplicate values, That means internally in heap area a new object will created by single reference only
+           that are is called String Constant Pool area.
+              In String SCPA it doesn't allow the duplicate vlaues,
+```java
+for example🧮 
+     String st = "java"; it will automatically create a new object inside SCPA.
+     String st1 = "java"; it won't created a new object for st1 y bcoz it acts like key values so it doesn't allow duplicate 
+     values so already exist that key it point out the that reference to the object.
+
+String is the syncronized 
+if you modify any string values, delete the old object and create new fresh object with new reference.
+
+   we can create string object in two types
+    one is litral type 
+    second is object type
+     
+
+     in literal type
+      
+      String s = "java"; litral type
+
+      String s1 = new String("java"); object type  it creates 2 objects 1 for new 1 for string java
+
+      if we can do some operations like
+      == or .equals 
+
+      s == s1  // false it will check the string object ref
+      s equals(s1) // true it will check the string values 
+
+ ```
+
+   String Buffer and String Builder
+    
+
+    string buffer is the synchronized and string builder is the non-synchronized
+    string buffer is thread safe          strig builder is not a thread safe
+    
+```java
+ string methods we have some string class methods we can do string manuplations like retrive, add , read , write
+ remove, split. length etc.
+
+
+
+
+
+```
+
+# Multithreading 
+  we have using two types of multiTasking.
+  one is taskbased
+  another is thread based 
+  
+
+  Task based mean at a time we use multiple tasks in our computer we use at a time 
+  for example: chrome, and photoshop.
+
+  Thread based multitasking 
+  it is programming based multitasking
+  it mean whenever we can n number of methods in java code 
+  these all methods jvm runs at one by one  in main method structor 
+  
+
 
 
 
