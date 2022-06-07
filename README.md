@@ -1733,8 +1733,10 @@ if you modify any string values, delete the old object and create new fresh obje
   Thread based multitasking 
   it is programming based multitasking
   it mean whenever we can n number of methods in java code 
-  these all methods jvm runs at one by one  in main method structor 
+  these all methods jvm runs at one by one  in main method structor.
+
   
+
 
 
 
