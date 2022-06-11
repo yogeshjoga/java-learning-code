@@ -15,6 +15,20 @@ public class StringPalndrome {
     }
 
 
+
+    public static void stringPal(String s) {
+        StringBuilder sb = new StringBuilder();
+        StringBuilder s1 = sb.append(s);
+        sb.reverse();
+        if(sb.equals(s1)){
+            System.out.println("pal string in string builder");
+        }
+        else{
+            System.out.println("not a pal string in string builder");
+        }
+        
+    }
+
     // int pal num check
 
     public  static void intPal(int num) {
@@ -43,5 +57,6 @@ public class StringPalndrome {
         palandrome(s);
         int num = 121;
         intPal(num);
+        stringPal(s);
     }
 }
