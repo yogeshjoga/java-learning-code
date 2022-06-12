@@ -22,7 +22,6 @@ public class BaseBall {
             for( j=0; j<=9; j++){
                 if(ops[i].equals(j)){
                     currentScore += ops[i];
-                   
                 }
             }
             
