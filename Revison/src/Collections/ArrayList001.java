@@ -31,16 +31,31 @@ public class ArrayList001 {
     }
 
     // syncronized list
-     public static void sycnArraylist(){
+     public static void sycnArraylist() throws InterruptedException {
          // non-syncronized
         List<Integer> li = new ArrayList<>();
         // syncronized List
          List<Integer> lis = Collections.synchronizedList(new ArrayList<>());
+
+         // Thread one
          Thread t1 = new Thread(() -> {
              for(int i=0; i<200000; i++){
                  lis.add(i);
              }
           });
+
+
+         // thread 2
+         Thread t2 = new Thread(() -> {
+             for(int i=0; i<200000; i++){
+                 lis.add(i);
+             }
+         });
+
+         t1.start();
+         t2.start();
+         t1.join();
+         t2.join();
 
          // collections ended
 
