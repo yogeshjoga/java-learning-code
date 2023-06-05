@@ -1,0 +1,6 @@
+package Enum;
+
+public enum MyEnumImpl {
+
+    MYNAME, SUNDAY, MONDAY, TUESDAY,WEDNESDAY,THRUSDAY, FRIDAY, SATURDAY;
+}
