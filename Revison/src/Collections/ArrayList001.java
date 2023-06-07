@@ -8,9 +8,18 @@ public class ArrayList001 {
     /**
      *
      * Compare the ArrayList and Vector
-     * Vectors is 1996 very old DataStructer
+     * Vectors is 1996 very old Data Structure
      * ArrayList is the non-synchronized
      * vector is the synchronized
+     * @author <strong>Yogesh joga</strong>
+     * @see Runnable
+     * @see Thread
+     * @see Stream
+     * @see Vector
+     * @see ArrayList
+     * @see Stack
+     * @see java.lang.reflect.GenericArrayType
+     *
      */
 
     // ArrayList excution time
@@ -30,11 +39,23 @@ public class ArrayList001 {
 
     }
 
-    // syncronized list
+    /**
+     *
+     * <p>ArrayList by default not SynchronizedList,
+     * while using multiThreading it will execute some of list only
+     * not a all the list iterator, Vector is the by default synchronizedList
+     * Vector performance is very low when compare to ArrayList</p>
+     *
+     * @throws InterruptedException
+     * @see Thread
+     * @see Runnable
+     */
+
+    // synchronized list
      public static void sycnArraylist() throws InterruptedException {
-         // non-syncronized
+         // non-synchronized
         List<Integer> li = new ArrayList<>();
-        // syncronized List
+        // synchronized List
          List<Integer> lis = Collections.synchronizedList(new ArrayList<>());
 
          // Thread one
@@ -62,8 +83,10 @@ public class ArrayList001 {
      }
 
 
-
-
+    /**
+     * <p>Invoke the all methods in main method will Execute one by one method and line by line</p>
+     * @param args
+     */
     public static void main(String[] args) {
         ArrayListExcution(2000000);
 
