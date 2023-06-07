@@ -2,4 +2,4 @@
 
 ### Collections
 
-1. [LinkedList my Docs](/Out/Collections/JavaLinkedList.html)
+1. [LinkedList my Docs](https://yogeshjoga.github.io/MyJavaDocs.github.io/)
