@@ -30,8 +30,9 @@ public class FuncationalInterIMpl {
 
 
     public static void main(String[] args) {
-
+        // Here we are using lambda Expression to make easier to implementation a FunctionalInterface
             MyFunctionalInteraface mfI = (a, b) -> {
+                // By using Arrow token we can create the object and passing the values also
                 var c = a - b;
                 System.out.println(c);
                 return c;
