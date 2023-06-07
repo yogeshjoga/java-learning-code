@@ -35,6 +35,9 @@ public class JavaLinkedList {
      * @see LinkedList
      * @see List
      * @see Queue
+     *
+     * @see  <a href="/Out/Collections/JavaLinkedList.html">Java Dcoumentation</a>
+     *
      * @since  1.7
      *
      */
