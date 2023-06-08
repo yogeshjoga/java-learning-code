@@ -4,11 +4,18 @@ package Java8Fet_Rev.Functional_Interface;
  *
  * <p>Calling the Generics of functional interface method by using Lambda Expressions</p>
  *
+ * @see Fun
+ * @see GenricFunInterface
+ * @see FunctionalInterface
  * @author <b>Yogesh Joga</b>
  */
 public class GenMain {
 
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         // for Int type
