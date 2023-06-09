@@ -50,6 +50,8 @@ public class ForEachMethod {
 
     public static void main(String[] args) {
         readCollection();
+
+        System.out.println();
     }
 
 
