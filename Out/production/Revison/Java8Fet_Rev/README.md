@@ -3,7 +3,35 @@ My Java Documentation
 ### Collections
 
 1. [LinkedList my Docs](https://yogeshjoga.github.io/MyJavaDocs.github.io/)
-2.
+
+
+
+# Java 8 Features
+
+
+Language level features
+
+1. Default Methods in an Interface.
+2. static methods in an interface.
+3. Functional Interface.
+4. @FunctionalInterface annotation.
+5. Lambda Experssions.
+6. Method and Constructor Reference (::) double colon.
+7. forEach() Method and splItrator() method.
+
+Api-level features:
+
+1. Stream Api (java.util.Stream)
+2. Functional Api(java.util.function)
+3. New Date and Time API.
+4. Base 64 API
+5. Annotations.
+
+
+
+
+
+
 
 # The javadoc tool recognizes the following tags −
 
