@@ -1,4 +1,4 @@
-package Java8Fet_Rev.methodConsturectorReference;
+package Java8Fet_Rev.methodConsturectorReference.MethodRef;
 
 
 /**
@@ -32,6 +32,18 @@ public class StartBike {
         return c;
     }
 
+    /**
+     * <p>Here! we implemented non-static method</p>
+     * <b> If it is Non-Static Method  the syntax is -{ObjectReference :: MethodName; }</b>
+     * @param driver
+     * @param drivername
+     */
+
+    public void bikerDriver2(String driver, String drivername){
+        String driveAdder = driver+drivername;
+        System.out.println("this is from non-static method"+driveAdder);
+    }
+
     public static void main(String[] args) {
 
 
@@ -44,6 +56,12 @@ public class StartBike {
         // method reference by using static implemented method
         Bike<Integer> bike1 = StartBike :: bikeDriver;
 
+        // method reference by using non-static implemented method
+        // 1st need to crate non-static method class object and pass the object reference and method name
+        StartBike sb = new StartBike();
+
+        // calling from object reference
+        Bike<String> bike2 = sb::bikerDriver2;
 
         // Calling the methods
         bike.bikeStart(100,200);
