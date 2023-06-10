@@ -1,6 +1,8 @@
 package Java8Fet_Rev.forEachMethod;
 
 import java.util.ArrayList;
+import java.util.function.Function;
+import java.util.function.Predicate;
 
 /**
  * <p>
@@ -52,6 +54,10 @@ public class ForEachMethod {
         readCollection();
 
         System.out.println();
+
+      //  Predicate
+
+        Function
     }
 
 
