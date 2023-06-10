@@ -25,6 +25,38 @@ Api-level features:
 4. Base 64 API
 5. Annotations.
 
+# PreDefined Functional Interfaces in java 8v
+
+Package: java.util.function
+
+1. Predicate
+
+   ```
+   predicate  method name is tested return type is boolean, Input is Generics
+      public boolean test(T t) 
+
+   know about little knowledge in Generics 
+   T – Type
+   E – Element
+   K – Key
+   N – Number
+   V – Value
+   R - The type of the result of the function
+   ```
+2. Function
+3. Consumer
+4. Supplier
+
+   Two arguments Predefined functional interface
+5. BiPredicate
+6. BiFunction
+7. BiConsumer
+
+   Primitive Functional interfaces
+8. IntPredicate
+9. IntFunction
+10. IntConsumer
+
 # The javadoc tool recognizes the following tags −
 
 

@@ -12,7 +12,7 @@ Language level features
 2. static methods in an interface. --> completed
 3. Functional Interface.       --> completed
 4. @FunctionalInterface annotation. --> completed
-5. Predefined Funcational Interface Methods
+5. Predefined Functional Interface Methods
 6. Lambda Experssions.  --> completed
 7. Method and Constructor Reference (::) double colon. --> completed
 8. forEach() Method and splItrator() method.   --> completed
@@ -25,7 +25,7 @@ Api-level features:
 4. Base 64 API
 5. Annotations.
 
-# PreDefined Functional Interfaces in java 8v
+# PreDefined Functional Interfaces in Java 8v
 
 Package: java.util.function
 

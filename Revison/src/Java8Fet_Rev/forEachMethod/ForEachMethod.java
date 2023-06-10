@@ -32,6 +32,12 @@ import java.util.function.Predicate;
  */
 public class ForEachMethod {
 
+    /**
+     * <p>Adding list objects into a new ArrayList collection</p>
+     * @param limit
+     * @param list
+     * @return
+     */
     public  static ArrayList addColletions(int limit, ArrayList list){
 
         // adding the objects here
@@ -41,6 +47,12 @@ public class ForEachMethod {
         return list;
     }
 
+    /**
+     *
+     * <p>Reading the ArrayList objects only by one</p>
+     * @see ArrayList
+     * @see java.util.List
+     */
     public  static void readCollection(){
         // creating a new Collection List object
         ArrayList<Integer> list = new ArrayList<>();
@@ -50,14 +62,15 @@ public class ForEachMethod {
         list.forEach(n -> System.out.println(n));
     }
 
+    /**
+     * <p>Main method, </p>
+     * @param args
+     */
     public static void main(String[] args) {
         readCollection();
 
         System.out.println();
 
-      //  Predicate
-
-        Function
     }
 
 
