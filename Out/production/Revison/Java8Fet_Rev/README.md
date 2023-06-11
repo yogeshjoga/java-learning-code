@@ -12,7 +12,7 @@ Language level features
 2. static methods in an interface. --> completed
 3. Functional Interface.       --> completed
 4. @FunctionalInterface annotation. --> completed
-5. Predefined Funcational Interface Methods
+5. Predefined Functional Interface Methods --> completed
 6. Lambda Experssions.  --> completed
 7. Method and Constructor Reference (::) double colon. --> completed
 8. forEach() Method and splItrator() method.   --> completed
@@ -20,12 +20,12 @@ Language level features
 Api-level features:
 
 1. Stream Api (java.util.Stream) --> completed
-2. Functional Api(java.util.function)
-3. New Date and Time API.
+2. Functional Api(java.util.function)--> completed
+3. New Date and Time API.  --> completed
 4. Base 64 API
 5. Annotations.
 
-# PreDefined Functional Interfaces in java 8v
+# PreDefined Functional Interfaces in Java 8v
 
 Package: java.util.function
 
@@ -44,18 +44,25 @@ Package: java.util.function
    R - The type of the result of the function
    ```
 2. Function
-3. Consumer
-4. Supplier
+
+```
+Function : method name is apply return type is Generic, input is also Generics
+       public R apply(T t);
+it is best to use operations... add, multi, object-operations.....
+```
+
+1. Consumer
+2. Supplier
 
    Two arguments Predefined functional interface
-5. BiPredicate
-6. BiFunction
-7. BiConsumer
+3. BiPredicate
+4. BiFunction
+5. BiConsumer
 
    Primitive Functional interfaces
-8. IntPredicate
-9. IntFunction
-10. IntConsumer
+6. IntPredic
+7. IntFunction
+8. IntConsumer
 
 # The javadoc tool recognizes the following tags −
 

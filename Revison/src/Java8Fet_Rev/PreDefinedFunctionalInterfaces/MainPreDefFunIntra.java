@@ -1,5 +1,6 @@
 package Java8Fet_Rev.PreDefinedFunctionalInterfaces;
 
+import java.util.function.Function;
 import java.util.function.Predicate;
 
 /**
@@ -39,8 +40,18 @@ import java.util.function.Predicate;
 public class MainPreDefFunIntra {
 
 
+    /**
+     * <p>Predicate is a FunctionalInterface it contains only one abstract method that is appy <br>
+     * the syntax is : <b>public R apply(T t); </b> it is best for checking conditions true or false</p>
+     *
+     *
+     * @param num <b>Generic parameter</b>
+     * @return <b>R generic Return type</b>
+     */
+
     public static boolean predicateImple(int num){
 
+        // using lambda expression
         Predicate<Integer> pr = ((num1)->{
             if(num % 2 == 0){
                 System.out.println(num+" : it is the Even number!");
@@ -53,11 +64,36 @@ public class MainPreDefFunIntra {
         return pr.test(num);
     }
 
+    /**
+     * <p>This is the implemented method to call the predefined Function, FunctionalIntraface apply method</p>
+     *
+     * <p> <b>Function have 2 default methods</b>
+     *     <ol>
+     *         <li>andThen</li>
+     *            <b>syntax: f1.andThen(f2).apply(inputValue); </b>
+     *         <li>compose</li>
+     *     </ol>
+     *     </p>
+     * @param num
+     * @return
+     */
+    public static int functionIntera(int num){
+        var sum = num * num;
+        System.out.println(sum + " : apply method ");
+        return sum;
+    }
+
+
+
     public static void main(String[] args) {
-
-
         int num = 8888;
         predicateImple(num);
+
+        // calling the apply method from Function FunctionalInterface
+        // using method reference
+        Function<Integer, Integer> f = MainPreDefFunIntra::functionIntera;
+        // call the appy method
+        f.apply(2);
 
     }
 }
