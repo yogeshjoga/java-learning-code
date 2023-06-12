@@ -175,6 +175,55 @@ public class MyVariables {
         }
      }
 
+    /**
+     * <p><b>In java we have some types of operators</b></p>
+     * <p>
+     *     <ol>
+     *         <li>Mathematical/Arithmetic operators</li>
+     *         <ol>
+     *             <li>+ --> Addition x+y</li>
+     *             <li>-  --> subtracts x-y</li>
+     *             <li>* --> multiplication x*y</li>
+     *             <li>/ --> Division x/y</li>
+     *             <li> %  --> modulus x%y</li>
+     *             <li>++ --> increment x++</li>
+     *             <li>--   --> decrement x--</li>
+     *         </ol>
+     *
+     *         <li>Assignment operators</li>
+     *         <ol>
+     *             <li><b>= --> x=5</b></li>
+     *             <li><b>+= --> x+=5</b></li>
+     *             <li><b>-= --> x-=5</b></li>
+     *             <li><b>*= --> x*=5</b></li>
+     *             <li><b>/= --> x/=5</b></li>
+     *             <li><b>%= --> x%=5</b></li>
+     *             <li><b>&= --> x&=5</b></li>
+     *             <li><b>|= --> x|=5</b></li>
+     *             <li><b>^= --> x^=5</b></li>
+     *             <li><b> >>= --> x>>=5</b></li>
+     *             <li><b> <<= --> x<<=5 </b></li>
+     *
+     *         </ol>
+     *         <li>Comparison operators</li>
+     *         <li>Logical operators</li>
+     *         <li>Bitwise operators</li>
+     *
+     *     </ol>
+     * </p>
+     *
+     */
+    public static void opertorsInJava(){
+
+
+     }
+
+
+    /**
+     *
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         flowControls();
