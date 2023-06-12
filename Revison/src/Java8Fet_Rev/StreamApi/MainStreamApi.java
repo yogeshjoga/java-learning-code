@@ -15,10 +15,11 @@ import java.util.stream.Collectors;
  *         If we want to process the Objects from Collections we can better to go Stream Api</b></p>
  *         <li>Methods</li>
  *         <ol>
- *             <li> <b>filter(predicate)</b>this method expecting predicate(), Boolean's </li>
- *             <li><b>map(function)</b> this method expecting Function(), Processing the data  </li>
+ *             <p> <b>filter(predicate)</b>this method expecting predicate(), Boolean's </p>
+ *             <p><b>map(function)</b> this method expecting Function(), Processing the data  </p>
  *             <li>stream()</li>
  *             <li>filter()</li>
+ *             <li>Map</li>
  *             <li>collect()</li>
  *             <li>count()</li>
  *             <li>sorted() this method expecting or we can pass Comparator object, Comparator is Functional interaface</li>
