@@ -219,6 +219,16 @@ public class MyVariables {
      }
 
 
+     public static void ternaryEquation(){
+
+        // condition ? true(return) : false(return) ;
+
+         int a =100;
+         boolean result =  a == 100? true: false;
+         System.out.println(result);
+     }
+
+
     /**
      *
      *
