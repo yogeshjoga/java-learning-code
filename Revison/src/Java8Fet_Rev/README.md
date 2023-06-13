@@ -13,9 +13,21 @@ Language level features
 3. Functional Interface.       --> completed
 4. @FunctionalInterface annotation. --> completed
 5. Predefined Functional Interface Methods --> completed
-6. Lambda Experssions.  --> completed
+6. Lambda Expressions.  --> completed
 7. Method and Constructor Reference (::) double colon. --> completed
 8. forEach() Method and splItrator() method.   --> completed
+
+   Some of the methods in Arrays class
+
+   spliterator()
+
+   stream()
+
+   parallelSort()
+
+   parallelPrefix()
+
+   parallelSetAll()
 
 Api-level features:
 

@@ -15,13 +15,18 @@ public class ParallelArraySort {
     public static int[] addArrayelements(int len){
 
         int[] arr = new int[len];
-        for(int i=0; i<=len; i++){
+        for(int i=0; i<len; i++){
             arr[i] = i;
         }
 
 
-        int[] arr1 = {1,3,24,5,4,6,454,4567,76,23,1,8,9,8,45,989};
+        int[] arr1 = {1,3,4,6,5,7,8,11,13,12,10,14,17,16,18,20,21,30,40,29,31,32,34,35,36};
+        System.out.println("Normal unsorted Array");
         Arrays.stream(arr1).forEach( System.out::println);
+
+        Arrays.parallelSort(arr1);
+        System.out.println("Sorted Array from Arrays.parallelSort method");
+        Arrays.stream(arr1).forEach(System.out::println);
         return arr;
     }
 
@@ -30,6 +35,8 @@ public class ParallelArraySort {
 
     }
     public static void main(String[] args) {
+
+        addArrayelements(100);
 
     }
 }
