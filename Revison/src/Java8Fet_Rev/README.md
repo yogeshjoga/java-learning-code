@@ -76,6 +76,23 @@ it is best to use operations... add, multi, object-operations.....
 7. IntFunction
 8. IntConsumer
 
+# spring boot Roadmap
+
+1. Spring Core
+2. spring MVC
+3. spring JDBC
+4. spring Boot fundmentals
+5. Project using spring boot MVC (angular)
+6. spring DATA JPA (Hibernate spring ORM)
+7. spring REST
+8. spring AOP
+9. spring Security
+10. spring test( junit mockito)
+11. Logging (log4j logback)
+12. spring JMS ( kafka RabbitMQ)
+13. spring Batch
+14. Spring data Mongo DB
+
 # The javadoc tool recognizes the following tags −
 
 
