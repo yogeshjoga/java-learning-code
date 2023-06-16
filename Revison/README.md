@@ -13,3 +13,14 @@
 11. Strings, Sbuilder, Sbuffer
 12. Collections
 13. Java 8 features
+
+
+
+not completed
+
+1. Arrays
+2. exception
+3. methods
+4. multithreading
+5. oops
+6. Regular expressions
