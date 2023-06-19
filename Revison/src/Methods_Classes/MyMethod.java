@@ -20,6 +20,15 @@ package Methods_Classes;
  * @author <b>Yogesh Joga</b>
  */
 public class MyMethod {
+    /**
+     * <p>Methods
+     * <br>
+     * <b>public static void add(){}</b>
+     * public ---> access modifier <br>
+     * static ---> </p>
+     *
+     *
+     */
 
     public static void add(){
         var a = 50;
