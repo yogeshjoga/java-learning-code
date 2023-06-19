@@ -1,4 +1,4 @@
-package Interfaces_Rev.Project;
+package Interfaces_Rev.ProjectFunctionalInterface;
 
 /**
  * <p>
@@ -29,6 +29,6 @@ public interface Fun <T,R>{
     final static int wheels = 0;
 
 
-   
+
 
 }
