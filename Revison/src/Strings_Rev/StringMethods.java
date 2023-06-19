@@ -71,7 +71,11 @@ public class StringMethods {
         // compareTo() --> returns the int value
         System.out.println(s1.compareTo(s5));
 
-        
+
+        String key = "JOGA";
+
+        // string endWith()
+        System.out.println(s.endsWith("joga"));
 
 
         // contains() method
