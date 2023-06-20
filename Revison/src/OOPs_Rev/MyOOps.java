@@ -21,4 +21,13 @@ package OOPs_Rev;
 public class MyOOps {
 
 
+    /**
+     * <p> let's say here implemented oop's concepts run in main method</p>
+     * @param args
+     */
+    public static void main(String[] args) {
+
+    }
+
+
 }
