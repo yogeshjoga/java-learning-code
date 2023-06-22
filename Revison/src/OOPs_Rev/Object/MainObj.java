@@ -3,7 +3,9 @@ package OOPs_Rev.Object;
 import com.sun.tools.javac.Main;
 
 /**
- *
+ * <b>This is the objects and keywords used in java objects
+ * <br> this and this() method and super and super() method</b>
+ * <P>These are very importnent in java language so must know about the class and object with keywords</P>
  *
  *
  * @author <b>Yogesh Joga</b>
@@ -64,7 +66,6 @@ public class MainObj extends  SuperClass{
 
 
     /**
-     *
      * <p>
      *     <ol>
      *     <b>In object level we are using two Keywords there are : </b>
