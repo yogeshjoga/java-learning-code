@@ -8,6 +8,20 @@
 <li>Encapsulation</li>
 </ol>
 
+# keywords
+```
+        Keywords:
+              this keyword 
+              super keyword
+              
+        methods
+              this() method
+              super() method
+        
+        
+
+```
+
 
 # Class
 
