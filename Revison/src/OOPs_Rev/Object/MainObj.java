@@ -20,6 +20,10 @@ public class MainObj extends  SuperClass{
     public void mySuperKeyword(){
         // super keyword can invoke the super class methods and variables
         // It's invoke only non-static references in non-static context
+
+        // variable
+        super.addNum = 20;
+        // method calling
         super.hello();
     }
 
@@ -66,6 +70,8 @@ public class MainObj extends  SuperClass{
      *     <b>In object level we are using two Keywords there are : </b>
      *         <li>This --> keyword</li>
      *         <li>Super --> Keyword</li>
+     *         <li>this() --> method</li>
+     *         <li>super() --> method</li>
      *     </ol>
      * </p>
      * @param args
