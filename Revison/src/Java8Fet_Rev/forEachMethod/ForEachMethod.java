@@ -1,6 +1,7 @@
 package Java8Fet_Rev.forEachMethod;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
@@ -62,16 +63,34 @@ public class ForEachMethod {
         list.forEach(n -> System.out.println(n));
     }
 
+    public static void readForEachMethRef(){
+
+        // List Object creation
+        ArrayList<Integer> list = new ArrayList<>();
+
+        // initiate the size of the list adding
+        int listSize = 123;
+
+        // Adding the elements from addCollection method
+        addColletions(listSize, list);
+
+       // list.forEach( System.out::println());
+
+
+        System.out.println("Stream --- System.out::println");
+        // Stream API used
+        list.stream().forEach(System.out::println);
+
+
+    }
+
     /**
      * <p>Main method, </p>
      * @param args
      */
     public static void main(String[] args) {
         readCollection();
-
-        System.out.println();
-
+        readForEachMethRef();
+        System.out.println("Done");
     }
-
-
 }
